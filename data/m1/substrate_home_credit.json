@@ -1,0 +1,196 @@
+{
+  "dataset": "home_credit",
+  "audit_group_field": "gender",
+  "model_id": "gbdt-home_credit-m1-s20260502",
+  "calibrator_id": "isotonic-home_credit-m1-s20260502",
+  "transformer_id": "prep2-home_credit-m1-9120183c16",
+  "metrics": {
+    "auc": 0.72384,
+    "ap": 0.19468,
+    "brier": 0.0692,
+    "ece": 0.00557,
+    "n": 15001,
+    "base_rate": 0.07993,
+    "ece_bin_counts": [
+      11156,
+      3077,
+      511,
+      172,
+      63,
+      8,
+      0,
+      12,
+      1,
+      1
+    ]
+  },
+  "subgroup": {
+    "F": {
+      "n": 9899,
+      "base_rate": 0.0672,
+      "selection_rate": 0.001,
+      "tpr": 0.006,
+      "fpr": 0.0006
+    },
+    "M": {
+      "n": 5102,
+      "base_rate": 0.1047,
+      "selection_rate": 0.0024,
+      "tpr": 0.0094,
+      "fpr": 0.0015
+    }
+  },
+  "splits": {
+    "fit": 36000,
+    "calibrate": 8999,
+    "test": 15001
+  },
+  "role_counts": {
+    "locked_evaluation": 6073,
+    "calibration": 5941,
+    "development": 2987
+  },
+  "model_hash": "80cbd8917f589053",
+  "sampling_design": {
+    "cell_population": {
+      "F|low": 763,
+      "F|medium": 743,
+      "F|high": 449,
+      "M|low": 355,
+      "M|medium": 345,
+      "M|high": 332
+    },
+    "per_cell_sampled": 3,
+    "pd_band_rule": {
+      "low": "pd <= 0.03461",
+      "medium": "0.03461 < pd <= 0.08158",
+      "high": "pd > 0.08158"
+    },
+    "realised_per_cell": {
+      "F|low": 3,
+      "F|medium": 3,
+      "F|high": 3,
+      "M|low": 3,
+      "M|medium": 3,
+      "M|high": 3
+    },
+    "weight": {
+      "F|low": 254.333,
+      "F|medium": 247.667,
+      "F|high": 149.667,
+      "M|low": 118.333,
+      "M|medium": 115.0,
+      "M|high": 110.667
+    }
+  },
+  "sampled": [
+    {
+      "borrower_id": "home_credit-305409",
+      "group": "F",
+      "band": "low",
+      "pd": 0.0346
+    },
+    {
+      "borrower_id": "home_credit-225305",
+      "group": "F",
+      "band": "low",
+      "pd": 0.0346
+    },
+    {
+      "borrower_id": "home_credit-29788",
+      "group": "F",
+      "band": "low",
+      "pd": 0.0134
+    },
+    {
+      "borrower_id": "home_credit-287621",
+      "group": "F",
+      "band": "medium",
+      "pd": 0.0595
+    },
+    {
+      "borrower_id": "home_credit-255972",
+      "group": "F",
+      "band": "medium",
+      "pd": 0.0505
+    },
+    {
+      "borrower_id": "home_credit-7190",
+      "group": "F",
+      "band": "medium",
+      "pd": 0.0806
+    },
+    {
+      "borrower_id": "home_credit-15568",
+      "group": "F",
+      "band": "high",
+      "pd": 0.1363
+    },
+    {
+      "borrower_id": "home_credit-277048",
+      "group": "F",
+      "band": "high",
+      "pd": 0.1335
+    },
+    {
+      "borrower_id": "home_credit-255565",
+      "group": "F",
+      "band": "high",
+      "pd": 0.2771
+    },
+    {
+      "borrower_id": "home_credit-198958",
+      "group": "M",
+      "band": "low",
+      "pd": 0.0346
+    },
+    {
+      "borrower_id": "home_credit-273800",
+      "group": "M",
+      "band": "low",
+      "pd": 0.0134
+    },
+    {
+      "borrower_id": "home_credit-146368",
+      "group": "M",
+      "band": "low",
+      "pd": 0.0346
+    },
+    {
+      "borrower_id": "home_credit-302048",
+      "group": "M",
+      "band": "medium",
+      "pd": 0.063
+    },
+    {
+      "borrower_id": "home_credit-264730",
+      "group": "M",
+      "band": "medium",
+      "pd": 0.063
+    },
+    {
+      "borrower_id": "home_credit-11764",
+      "group": "M",
+      "band": "medium",
+      "pd": 0.0472
+    },
+    {
+      "borrower_id": "home_credit-123412",
+      "group": "M",
+      "band": "high",
+      "pd": 0.1335
+    },
+    {
+      "borrower_id": "home_credit-122631",
+      "group": "M",
+      "band": "high",
+      "pd": 0.1363
+    },
+    {
+      "borrower_id": "home_credit-22809",
+      "group": "M",
+      "band": "high",
+      "pd": 0.1335
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+ "pack_version": "mechanism/1.0",
+ "seed": 20261007,
+ "n_items": 480,
+ "n_base_claims": 120,
+ "n_borrowers": 60,
+ "by_relation": {
+  "VALUE": 18,
+  "DIRECTION": 19,
+  "RANK": 18,
+  "SCALE": 19,
+  "CODE": 8,
+  "CAUSAL": 18,
+  "PD": 18,
+  "TEMPORAL": 2
+ },
+ "by_split": {
+  "heldout": 65,
+  "dev": 55
+ },
+ "by_dataset": {
+  "taiwan": 60,
+  "home_credit": 60
+ },
+ "excluded_borrowers": 70,
+ "note": "labels by construction; needs independent validation before use as reference truth"
+}

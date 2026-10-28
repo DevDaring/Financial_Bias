@@ -1,0 +1,197 @@
+{
+  "dataset": "taiwan",
+  "audit_group_field": "gender",
+  "model_id": "gbdt-taiwan-m1-s20260502",
+  "calibrator_id": "isotonic-taiwan-m1-s20260502",
+  "transformer_id": "prep2-taiwan-m1-834bda3e2d",
+  "metrics": {
+    "auc": 0.771,
+    "ap": 0.52376,
+    "brier": 0.13714,
+    "ece": 0.01062,
+    "n": 7501,
+    "base_rate": 0.22117,
+    "ece_bin_counts": [
+      2183,
+      2682,
+      1100,
+      518,
+      267,
+      117,
+      393,
+      216,
+      9,
+      16
+    ]
+  },
+  "subgroup": {
+    "female": {
+      "n": 4525,
+      "base_rate": 0.2146,
+      "selection_rate": 0.0972,
+      "tpr": 0.3172,
+      "fpr": 0.0371
+    },
+    "male": {
+      "n": 2976,
+      "base_rate": 0.2312,
+      "selection_rate": 0.1045,
+      "tpr": 0.3052,
+      "fpr": 0.0441
+    }
+  },
+  "splits": {
+    "fit": 18000,
+    "calibrate": 4499,
+    "test": 7501
+  },
+  "role_counts": {
+    "locked_evaluation": 3006,
+    "calibration": 2968,
+    "development": 1503,
+    "development_v1_inspected": 24
+  },
+  "model_hash": "cc6a99511c30f572",
+  "sampling_design": {
+    "cell_population": {
+      "female|low": 384,
+      "female|medium": 299,
+      "female|high": 237,
+      "male|low": 242,
+      "male|medium": 188,
+      "male|high": 153
+    },
+    "per_cell_sampled": 3,
+    "pd_band_rule": {
+      "low": "pd <= 0.12128",
+      "medium": "0.12128 < pd <= 0.22281",
+      "high": "pd > 0.22281"
+    },
+    "realised_per_cell": {
+      "female|low": 3,
+      "female|medium": 3,
+      "female|high": 3,
+      "male|low": 3,
+      "male|medium": 3,
+      "male|high": 3
+    },
+    "weight": {
+      "female|low": 128.0,
+      "female|medium": 99.667,
+      "female|high": 79.0,
+      "male|low": 80.667,
+      "male|medium": 62.667,
+      "male|high": 51.0
+    }
+  },
+  "sampled": [
+    {
+      "borrower_id": "taiwan-17424",
+      "group": "female",
+      "band": "low",
+      "pd": 0.0959
+    },
+    {
+      "borrower_id": "taiwan-8834",
+      "group": "female",
+      "band": "low",
+      "pd": 0.0819
+    },
+    {
+      "borrower_id": "taiwan-20077",
+      "group": "female",
+      "band": "low",
+      "pd": 0.0511
+    },
+    {
+      "borrower_id": "taiwan-18385",
+      "group": "female",
+      "band": "medium",
+      "pd": 0.1671
+    },
+    {
+      "borrower_id": "taiwan-12618",
+      "group": "female",
+      "band": "medium",
+      "pd": 0.1671
+    },
+    {
+      "borrower_id": "taiwan-29181",
+      "group": "female",
+      "band": "medium",
+      "pd": 0.1671
+    },
+    {
+      "borrower_id": "taiwan-10842",
+      "group": "female",
+      "band": "high",
+      "pd": 0.6782
+    },
+    {
+      "borrower_id": "taiwan-28779",
+      "group": "female",
+      "band": "high",
+      "pd": 0.3697
+    },
+    {
+      "borrower_id": "taiwan-13896",
+      "group": "female",
+      "band": "high",
+      "pd": 0.2658
+    },
+    {
+      "borrower_id": "taiwan-487",
+      "group": "male",
+      "band": "low",
+      "pd": 0.0819
+    },
+    {
+      "borrower_id": "taiwan-26610",
+      "group": "male",
+      "band": "low",
+      "pd": 0.0959
+    },
+    {
+      "borrower_id": "taiwan-13649",
+      "group": "male",
+      "band": "low",
+      "pd": 0.0959
+    },
+    {
+      "borrower_id": "taiwan-6703",
+      "group": "male",
+      "band": "medium",
+      "pd": 0.1671
+    },
+    {
+      "borrower_id": "taiwan-2204",
+      "group": "male",
+      "band": "medium",
+      "pd": 0.2228
+    },
+    {
+      "borrower_id": "taiwan-10699",
+      "group": "male",
+      "band": "medium",
+      "pd": 0.2228
+    },
+    {
+      "borrower_id": "taiwan-24970",
+      "group": "male",
+      "band": "high",
+      "pd": 0.3697
+    },
+    {
+      "borrower_id": "taiwan-29848",
+      "group": "male",
+      "band": "high",
+      "pd": 0.6782
+    },
+    {
+      "borrower_id": "taiwan-10692",
+      "group": "male",
+      "band": "high",
+      "pd": 0.2658
+    }
+  ]
+}

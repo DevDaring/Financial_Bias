@@ -1,0 +1,23 @@
+{
+ "generated_utc": "2026-10-07T16:03:59Z",
+ "authority": "score_m1.final_labels(): rater agreement -> adjudicated decision (adjudication_m1.csv ADJUDICATED_ANY) -> author decision on contract conflicts (contract_conflict_decisions.json)",
+ "n_final": 299,
+ "n_error": 72,
+ "by_basis": {
+  "adjudicated|correct": 23,
+  "adjudicated|error": 31,
+  "agreed|correct": 202,
+  "agreed|error": 36,
+  "contract_conflict|correct": 2,
+  "contract_conflict|error": 5
+ },
+ "adjudication_csv": {
+  "natural_rows": 54,
+  "with_decision": 54,
+  "note": "rows without a decision were resolved as UNRESOLVED or belong to challenge items; they are not in the final set"
+ },
+ "files_sha256_16": {
+  "adjudication_m1.csv": "bea275f46aa902c6",
+  "contract_conflict_decisions.json": "628bb9f7584f3cb5"
+ }
+}

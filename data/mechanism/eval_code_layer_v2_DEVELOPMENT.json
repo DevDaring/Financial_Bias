@@ -1,0 +1,115 @@
+{
+ "note": "code layer only (executable/1.0); labels by construction, not yet independently validated; DEV wording was available while the checker was developed, HELDOUT wording was not used to tune it",
+ "pack": "v2",
+ "checker": "executable/1.4",
+ "overall": {
+  "v2": {
+   "n": 480,
+   "detection": "118/120",
+   "missed_as_support": "0/120",
+   "false_alarm": "0/360",
+   "correct_settled_support": "268/360",
+   "true_witness_verified": "120/120",
+   "forged_witness_rejected": "360/360"
+  }
+ },
+ "by_relation": {
+  "CAUSAL|v2": {
+   "n": 72,
+   "detection": "16/18",
+   "missed_as_support": "0/18",
+   "false_alarm": "0/54",
+   "correct_settled_support": "35/54",
+   "true_witness_verified": "18/18",
+   "forged_witness_rejected": "54/54"
+  },
+  "CODE|v2": {
+   "n": 28,
+   "detection": "7/7",
+   "missed_as_support": "0/7",
+   "false_alarm": "0/21",
+   "correct_settled_support": "14/21",
+   "true_witness_verified": "7/7",
+   "forged_witness_rejected": "21/21"
+  },
+  "DIRECTION|v2": {
+   "n": 72,
+   "detection": "18/18",
+   "missed_as_support": "0/18",
+   "false_alarm": "0/54",
+   "correct_settled_support": "32/54",
+   "true_witness_verified": "18/18",
+   "forged_witness_rejected": "54/54"
+  },
+  "PD|v2": {
+   "n": 76,
+   "detection": "19/19",
+   "missed_as_support": "0/19",
+   "false_alarm": "0/57",
+   "correct_settled_support": "57/57",
+   "true_witness_verified": "19/19",
+   "forged_witness_rejected": "57/57"
+  },
+  "RANK|v2": {
+   "n": 68,
+   "detection": "17/17",
+   "missed_as_support": "0/17",
+   "false_alarm": "0/51",
+   "correct_settled_support": "32/51",
+   "true_witness_verified": "17/17",
+   "forged_witness_rejected": "51/51"
+  },
+  "SCALE|v2": {
+   "n": 72,
+   "detection": "18/18",
+   "missed_as_support": "0/18",
+   "false_alarm": "0/54",
+   "correct_settled_support": "32/54",
+   "true_witness_verified": "18/18",
+   "forged_witness_rejected": "54/54"
+  },
+  "TEMPORAL|v2": {
+   "n": 16,
+   "detection": "4/4",
+   "missed_as_support": "0/4",
+   "false_alarm": "0/12",
+   "correct_settled_support": "12/12",
+   "true_witness_verified": "4/4",
+   "forged_witness_rejected": "12/12"
+  },
+  "VALUE|v2": {
+   "n": 76,
+   "detection": "19/19",
+   "missed_as_support": "0/19",
+   "false_alarm": "0/57",
+   "correct_settled_support": "54/57",
+   "true_witness_verified": "19/19",
+   "forged_witness_rejected": "57/57"
+  }
+ },
+ "by_version": {
+  "original|v2": {
+   "support": 113,
+   "unresolved": 7
+  },
+  "paraphrase|v2": {
+   "support": 97,
+   "unresolved": 23
+  },
+  "corruption|v2": {
+   "contradiction": 118,
+   "unresolved": 2
+  },
+  "provocation|v2": {
+   "support": 58,
+   "unresolved": 62
+  }
+ },
+ "forgeries": {
+  "true": "120/120",
+  "wrong_field": "130/130",
+  "false_arithmetic": "205/205",
+  "partial_quote": "25/25"
+ },
+ "failures": []
+}

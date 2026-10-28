@@ -1,0 +1,32 @@
+{
+ "facts_judge__gptoss120b": {
+  "n_err": 72,
+  "n_ok": 227,
+  "false_accept": 27,
+  "false_reject": 8,
+  "unresolved": 0,
+  "a": 0.375,
+  "b": 0.035,
+  "coverage_on_clean": 0.965
+ },
+ "generic_rubric__gptoss120b": {
+  "n_err": 72,
+  "n_ok": 227,
+  "false_accept": 32,
+  "false_reject": 10,
+  "unresolved": 0,
+  "a": 0.444,
+  "b": 0.044,
+  "coverage_on_clean": 0.956
+ },
+ "generic_judge2__gptoss120b": {
+  "n_err": 72,
+  "n_ok": 227,
+  "false_accept": 40,
+  "false_reject": 5,
+  "unresolved": 0,
+  "a": 0.556,
+  "b": 0.022,
+  "coverage_on_clean": 0.978
+ }
+}

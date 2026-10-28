@@ -1,0 +1,300 @@
+{
+ "n": {
+  "final": 299,
+  "agreed": 245,
+  "reverted": 299
+ },
+ "errors": {
+  "final": 72,
+  "agreed": 36,
+  "reverted": 67
+ },
+ "judges": {
+  "qwen3_next": {
+   "generic_judge2": {
+    "final": {
+     "correct_released": 187,
+     "wrong_released": 39
+    },
+    "agreed": {
+     "correct_released": 170,
+     "wrong_released": 18
+    },
+    "reverted": {
+     "correct_released": 190,
+     "wrong_released": 36
+    }
+   },
+   "generic_rubric": {
+    "final": {
+     "correct_released": 162,
+     "wrong_released": 33
+    },
+    "agreed": {
+     "correct_released": 149,
+     "wrong_released": 16
+    },
+    "reverted": {
+     "correct_released": 164,
+     "wrong_released": 31
+    }
+   },
+   "facts_judge": {
+    "final": {
+     "correct_released": 205,
+     "wrong_released": 31
+    },
+    "agreed": {
+     "correct_released": 192,
+     "wrong_released": 7
+    },
+    "reverted": {
+     "correct_released": 207,
+     "wrong_released": 29
+    }
+   },
+   "exec_P": {
+    "final": {
+     "correct_released": 181,
+     "wrong_released": 22
+    },
+    "agreed": {
+     "correct_released": 169,
+     "wrong_released": 5
+    },
+    "reverted": {
+     "correct_released": 183,
+     "wrong_released": 20
+    }
+   },
+   "exec_D": {
+    "final": {
+     "correct_released": 170,
+     "wrong_released": 15
+    },
+    "agreed": {
+     "correct_released": 160,
+     "wrong_released": 2
+    },
+    "reverted": {
+     "correct_released": 172,
+     "wrong_released": 13
+    }
+   },
+   "exec_R": {
+    "final": {
+     "correct_released": 178,
+     "wrong_released": 17
+    },
+    "agreed": {
+     "correct_released": 163,
+     "wrong_released": 2
+    },
+    "reverted": {
+     "correct_released": 179,
+     "wrong_released": 16
+    }
+   },
+   "exec_R_replay": {
+    "final": {
+     "correct_released": 186,
+     "wrong_released": 19
+    },
+    "agreed": {
+     "correct_released": 172,
+     "wrong_released": 4
+    },
+    "reverted": {
+     "correct_released": 187,
+     "wrong_released": 18
+    }
+   },
+   "exec_R11_replay": {
+    "final": {
+     "correct_released": 189,
+     "wrong_released": 19
+    },
+    "agreed": {
+     "correct_released": 173,
+     "wrong_released": 4
+    },
+    "reverted": {
+     "correct_released": 190,
+     "wrong_released": 18
+    }
+   }
+  },
+  "gemma27_vllm": {
+   "generic_judge2": {
+    "final": {
+     "correct_released": 98,
+     "wrong_released": 25
+    },
+    "agreed": {
+     "correct_released": 92,
+     "wrong_released": 14
+    },
+    "reverted": {
+     "correct_released": 100,
+     "wrong_released": 23
+    }
+   },
+   "generic_rubric": {
+    "final": {
+     "correct_released": 77,
+     "wrong_released": 15
+    },
+    "agreed": {
+     "correct_released": 68,
+     "wrong_released": 5
+    },
+    "reverted": {
+     "correct_released": 79,
+     "wrong_released": 13
+    }
+   },
+   "facts_judge": {
+    "final": {
+     "correct_released": 149,
+     "wrong_released": 22
+    },
+    "agreed": {
+     "correct_released": 139,
+     "wrong_released": 5
+    },
+    "reverted": {
+     "correct_released": 151,
+     "wrong_released": 20
+    }
+   },
+   "exec_P": {
+    "final": {
+     "correct_released": 163,
+     "wrong_released": 13
+    },
+    "agreed": {
+     "correct_released": 150,
+     "wrong_released": 0
+    },
+    "reverted": {
+     "correct_released": 164,
+     "wrong_released": 12
+    }
+   },
+   "exec_D": {
+    "final": {
+     "correct_released": 149,
+     "wrong_released": 13
+    },
+    "agreed": {
+     "correct_released": 138,
+     "wrong_released": 0
+    },
+    "reverted": {
+     "correct_released": 150,
+     "wrong_released": 12
+    }
+   },
+   "exec_R": {
+    "final": {
+     "correct_released": 169,
+     "wrong_released": 20
+    },
+    "agreed": {
+     "correct_released": 155,
+     "wrong_released": 2
+    },
+    "reverted": {
+     "correct_released": 170,
+     "wrong_released": 19
+    }
+   }
+  },
+  "grok45": {
+   "generic_judge2": {
+    "final": {
+     "correct_released": 223,
+     "wrong_released": 34
+    },
+    "agreed": {
+     "correct_released": 201,
+     "wrong_released": 16
+    },
+    "reverted": {
+     "correct_released": 224,
+     "wrong_released": 33
+    }
+   },
+   "generic_rubric": {
+    "final": {
+     "correct_released": 219,
+     "wrong_released": 26
+    },
+    "agreed": {
+     "correct_released": 198,
+     "wrong_released": 9
+    },
+    "reverted": {
+     "correct_released": 220,
+     "wrong_released": 25
+    }
+   },
+   "facts_judge": {
+    "final": {
+     "correct_released": 220,
+     "wrong_released": 22
+    },
+    "agreed": {
+     "correct_released": 198,
+     "wrong_released": 7
+    },
+    "reverted": {
+     "correct_released": 220,
+     "wrong_released": 22
+    }
+   },
+   "exec_P": {
+    "final": {
+     "correct_released": 221,
+     "wrong_released": 28
+    },
+    "agreed": {
+     "correct_released": 201,
+     "wrong_released": 7
+    },
+    "reverted": {
+     "correct_released": 222,
+     "wrong_released": 27
+    }
+   },
+   "exec_R_replay": {
+    "final": {
+     "correct_released": 220,
+     "wrong_released": 25
+    },
+    "agreed": {
+     "correct_released": 199,
+     "wrong_released": 6
+    },
+    "reverted": {
+     "correct_released": 221,
+     "wrong_released": 24
+    }
+   },
+   "exec_R11_replay": {
+    "final": {
+     "correct_released": 221,
+     "wrong_released": 26
+    },
+    "agreed": {
+     "correct_released": 200,
+     "wrong_released": 6
+    },
+    "reverted": {
+     "correct_released": 222,
+     "wrong_released": 25
+    }
+   }
+  }
+ }
+}

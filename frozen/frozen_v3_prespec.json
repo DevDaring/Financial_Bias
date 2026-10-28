@@ -1,0 +1,59 @@
+{
+ "frozen_utc": "2026-10-09T17:58:03Z",
+ "system": "ReCheck 3 = executable/1.6 (zero-call gate) + policy P (objections executed, one reassessment, unresolved defers)",
+ "judge_primary": "gptoss120b (GPT-OSS-120B, AWS Bedrock)",
+ "executable": "executable/1.6",
+ "dispute": "dispute/1.1",
+ "selected_on": "development only: 299 M1 + 400 locked-v1 narratives (Submission/locked/dev_v16_analysis.json); Gate A",
+ "source_sha256_16": {
+  "witness.py": "9a20a8f4949ca918",
+  "executable_verifier.py": "2a3a7627b82a3d5f",
+  "dispute.py": "38b14a948f4034d4",
+  "comparators.py": "f7a062ee0bb25bb0",
+  "comparators2.py": "ffd227024f1899b8",
+  "contract.py": "514e30cffef32fc3",
+  "verify.py": "bda900056ae4aa1e",
+  "generate.py": "70368c216c9f0879",
+  "feature_semantics.py": "5980067918e23588"
+ },
+ "fresh_set": "Submission/locked/fresh_natural_v2_final.jsonl (774 narratives; generated 9 Oct before this freeze; no verifier had read them)",
+ "primary": {
+  "comparison": "exec_P (1.6) vs facts_judge (B1F), both with judge gptoss120b, on the 774 fresh narratives",
+  "endpoint_1_safety": "wrong-release rate difference < 0: one-sided 95% upper bound below 0 (superiority)",
+  "endpoint_2_retention": "correct-release rate difference: one-sided 95% lower bound above -5 points (non-inferiority)",
+  "both_required": true,
+  "inference": "borrower = unit (one narrative per borrower); bootstrap within dataset x group strata, 4000 draws",
+  "labels": "two blind raters; disagreements adjudicated by an independent adjudicator (not an author), blind to verifier outputs"
+ },
+ "secondary": [
+  "same comparison with qwen3_next and gemma27_vllm judges",
+  "exec_D and exec_R11 (reader gemma27_vllm for the gptoss judge, gptoss120b otherwise)",
+  "B1 generic_judge2, B1R generic_rubric",
+  "exec_A0 code only (1.6)",
+  "per producer cell incl. unseen producer glm47 and the applicant prompt style",
+  "templates vs narratives; what the lender sees",
+  "group gaps (descriptive)",
+  "Grok 4.5 B1F if the aggregator throughput allows"
+ ],
+ "unchanged_reporting": "the locked-v1 test (failed non-inferiority) stays in the paper as it was; no margin is relaxed",
+ "fresh_outputs_sha256_16": {
+  "exec_A0__gptoss120b.jsonl": "ee6377c704754732",
+  "exec_D__gemma27_vllm.jsonl": "b6ecb2324047c9c1",
+  "exec_D__gptoss120b.jsonl": "257df33a0b2f85c6",
+  "exec_D__qwen3_next.jsonl": "d628df00fded4f81",
+  "exec_P__gemma27_vllm.jsonl": "300e27ba55b36ff4",
+  "exec_P__gptoss120b.jsonl": "f6e7f3b5b196762e",
+  "exec_P__qwen3_next.jsonl": "2b7f40385701f2bf",
+  "exec_R11__gptoss120b.jsonl": "67a13f1c58602c13",
+  "facts_judge__gemma27_vllm.jsonl": "7b2c11d1620dde89",
+  "facts_judge__gptoss120b.jsonl": "c32512df54e91cbc",
+  "facts_judge__grok45.jsonl": "b27bfa94d33e94f1",
+  "facts_judge__qwen3_next.jsonl": "d6997df8eefcf52f",
+  "generic_judge2__gptoss120b.jsonl": "369ce45ddd998c6f",
+  "generic_rubric__gemma27_vllm.jsonl": "cdb673af231218ce",
+  "generic_rubric__gptoss120b.jsonl": "a2fd11b12a967b1d",
+  "generic_rubric__qwen3_next.jsonl": "954416727c0c419c"
+ },
+ "fresh_outputs_hashed_utc": "2026-10-09T18:57:43Z",
+ "labels_status": "not yet returned when the outputs were hashed"
+}

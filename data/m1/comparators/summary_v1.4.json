@@ -1,0 +1,52 @@
+{
+ "exec_A0__none": {
+  "n_err": 67,
+  "n_ok": 232,
+  "false_accept": 10,
+  "false_reject": 1,
+  "unresolved": 133,
+  "a": 0.149,
+  "b": 0.004,
+  "coverage_on_clean": 0.56
+ },
+ "exec_P__qwen3_next": {
+  "n_err": 67,
+  "n_ok": 232,
+  "false_accept": 20,
+  "false_reject": 3,
+  "unresolved": 63,
+  "a": 0.299,
+  "b": 0.013,
+  "coverage_on_clean": 0.789
+ },
+ "exec_A1__qwen3_next": {
+  "n_err": 67,
+  "n_ok": 232,
+  "false_accept": 14,
+  "false_reject": 58,
+  "unresolved": 0,
+  "a": 0.209,
+  "b": 0.25,
+  "coverage_on_clean": 0.75
+ },
+ "exec_A2__qwen3_next": {
+  "n_err": 67,
+  "n_ok": 232,
+  "false_accept": 13,
+  "false_reject": 50,
+  "unresolved": 10,
+  "a": 0.194,
+  "b": 0.216,
+  "coverage_on_clean": 0.75
+ },
+ "exec_PX__qwen3_next": {
+  "n_err": 72,
+  "n_ok": 227,
+  "false_accept": 38,
+  "false_reject": 0,
+  "unresolved": 78,
+  "a": 0.528,
+  "b": 0.0,
+  "coverage_on_clean": 0.758
+ }
+}

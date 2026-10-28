@@ -1,0 +1,167 @@
+{
+ "excluded_by_human_check": 14,
+ "methods": {
+  "exec_P": {
+   "original": {
+    "escape": 0.0,
+    "escape_ci": [
+     0.0,
+     0.0
+    ],
+    "retention": 95.6,
+    "retention_ci": [
+     92.5,
+     98.8
+    ],
+    "n_wrong": 160,
+    "n_correct": 160
+   },
+   "paraphrase": {
+    "escape": 0.7,
+    "escape_ci": [
+     0.0,
+     2.1
+    ],
+    "retention": 97.2,
+    "retention_ci": [
+     94.6,
+     99.3
+    ],
+    "n_wrong": 295,
+    "n_correct": 290,
+    "flip": 1.4,
+    "flip_ci": [
+     0.3,
+     2.7
+    ]
+   },
+   "adversarial": {
+    "escape": 0.5,
+    "escape_ci": [
+     0.0,
+     1.6
+    ],
+    "retention": 92.5,
+    "retention_ci": [
+     88.9,
+     96.0
+    ],
+    "n_wrong": 201,
+    "n_correct": 200,
+    "flip": 4.2,
+    "flip_ci": [
+     2.2,
+     6.5
+    ]
+   }
+  },
+  "facts_judge": {
+   "original": {
+    "escape": 3.8,
+    "escape_ci": [
+     1.2,
+     6.9
+    ],
+    "retention": 100.0,
+    "retention_ci": [
+     100.0,
+     100.0
+    ],
+    "n_wrong": 160,
+    "n_correct": 160
+   },
+   "paraphrase": {
+    "escape": 0.0,
+    "escape_ci": [
+     0.0,
+     0.0
+    ],
+    "retention": 100.0,
+    "retention_ci": [
+     100.0,
+     100.0
+    ],
+    "n_wrong": 295,
+    "n_correct": 290,
+    "flip": 0.0,
+    "flip_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "adversarial": {
+    "escape": 0.0,
+    "escape_ci": [
+     0.0,
+     0.0
+    ],
+    "retention": 93.0,
+    "retention_ci": [
+     89.3,
+     96.4
+    ],
+    "n_wrong": 201,
+    "n_correct": 200,
+    "flip": 4.5,
+    "flip_ci": [
+     2.6,
+     6.7
+    ]
+   }
+  },
+  "generic_rubric": {
+   "original": {
+    "escape": 3.1,
+    "escape_ci": [
+     0.6,
+     6.2
+    ],
+    "retention": 100.0,
+    "retention_ci": [
+     100.0,
+     100.0
+    ],
+    "n_wrong": 160,
+    "n_correct": 160
+   },
+   "paraphrase": {
+    "escape": 0.0,
+    "escape_ci": [
+     0.0,
+     0.0
+    ],
+    "retention": 100.0,
+    "retention_ci": [
+     100.0,
+     100.0
+    ],
+    "n_wrong": 295,
+    "n_correct": 290,
+    "flip": 0.0,
+    "flip_ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "adversarial": {
+    "escape": 1.5,
+    "escape_ci": [
+     0.0,
+     3.5
+    ],
+    "retention": 93.0,
+    "retention_ci": [
+     89.4,
+     96.2
+    ],
+    "n_wrong": 201,
+    "n_correct": 200,
+    "flip": 4.5,
+    "flip_ci": [
+     2.7,
+     6.6
+    ]
+   }
+  }
+ }
+}

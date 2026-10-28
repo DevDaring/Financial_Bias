@@ -1,0 +1,22 @@
+{
+ "n_sources": 320,
+ "n_rows": 1320,
+ "kept": {
+  "None|original": 320,
+  "kimi_k25|paraphrase": 292,
+  "kimi_k25|adversarial": 198,
+  "glm47|paraphrase": 293,
+  "glm47|adversarial": 217
+ },
+ "dropped": {
+  "glm47|adversarial": 103,
+  "kimi_k25|adversarial": 122,
+  "kimi_k25|paraphrase": 28,
+  "glm47|paraphrase": 27
+ },
+ "writers": [
+  "kimi_k25",
+  "glm47"
+ ],
+ "seed": 20261013
+}

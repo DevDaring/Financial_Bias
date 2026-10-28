@@ -1,0 +1,934 @@
+{
+ "note": "code layer only (executable/1.0); labels by construction, not yet independently validated; DEV wording was available while the checker was developed, HELDOUT wording was not used to tune it",
+ "overall": {
+  "dev": {
+   "n": 220,
+   "detection": "52/55",
+   "missed_as_support": "0/55",
+   "false_alarm": "0/165",
+   "correct_settled_support": "133/165",
+   "true_witness_verified": "55/55",
+   "forged_witness_rejected": "164/165"
+  },
+  "heldout": {
+   "n": 260,
+   "detection": "41/65",
+   "missed_as_support": "0/65",
+   "false_alarm": "0/195",
+   "correct_settled_support": "143/195",
+   "true_witness_verified": "45/65",
+   "forged_witness_rejected": "159/195"
+  }
+ },
+ "by_relation": {
+  "CAUSAL|dev": {
+   "n": 24,
+   "detection": "3/6",
+   "missed_as_support": "0/6",
+   "false_alarm": "0/18",
+   "correct_settled_support": "9/18",
+   "true_witness_verified": "6/6",
+   "forged_witness_rejected": "17/18"
+  },
+  "CAUSAL|heldout": {
+   "n": 48,
+   "detection": "7/12",
+   "missed_as_support": "0/12",
+   "false_alarm": "0/36",
+   "correct_settled_support": "24/36",
+   "true_witness_verified": "0/12",
+   "forged_witness_rejected": "24/36"
+  },
+  "CODE|dev": {
+   "n": 12,
+   "detection": "3/3",
+   "missed_as_support": "0/3",
+   "false_alarm": "0/9",
+   "correct_settled_support": "9/9",
+   "true_witness_verified": "3/3",
+   "forged_witness_rejected": "9/9"
+  },
+  "CODE|heldout": {
+   "n": 20,
+   "detection": "5/5",
+   "missed_as_support": "0/5",
+   "false_alarm": "0/15",
+   "correct_settled_support": "15/15",
+   "true_witness_verified": "5/5",
+   "forged_witness_rejected": "15/15"
+  },
+  "DIRECTION|dev": {
+   "n": 44,
+   "detection": "11/11",
+   "missed_as_support": "0/11",
+   "false_alarm": "0/33",
+   "correct_settled_support": "22/33",
+   "true_witness_verified": "11/11",
+   "forged_witness_rejected": "33/33"
+  },
+  "DIRECTION|heldout": {
+   "n": 32,
+   "detection": "0/8",
+   "missed_as_support": "0/8",
+   "false_alarm": "0/24",
+   "correct_settled_support": "16/24",
+   "true_witness_verified": "0/8",
+   "forged_witness_rejected": "24/24"
+  },
+  "PD|dev": {
+   "n": 28,
+   "detection": "7/7",
+   "missed_as_support": "0/7",
+   "false_alarm": "0/21",
+   "correct_settled_support": "19/21",
+   "true_witness_verified": "7/7",
+   "forged_witness_rejected": "21/21"
+  },
+  "PD|heldout": {
+   "n": 44,
+   "detection": "0/11",
+   "missed_as_support": "0/11",
+   "false_alarm": "0/33",
+   "correct_settled_support": "27/33",
+   "true_witness_verified": "11/11",
+   "forged_witness_rejected": "9/33"
+  },
+  "RANK|dev": {
+   "n": 48,
+   "detection": "12/12",
+   "missed_as_support": "0/12",
+   "false_alarm": "0/36",
+   "correct_settled_support": "36/36",
+   "true_witness_verified": "12/12",
+   "forged_witness_rejected": "36/36"
+  },
+  "RANK|heldout": {
+   "n": 24,
+   "detection": "6/6",
+   "missed_as_support": "0/6",
+   "false_alarm": "0/18",
+   "correct_settled_support": "12/18",
+   "true_witness_verified": "6/6",
+   "forged_witness_rejected": "18/18"
+  },
+  "SCALE|dev": {
+   "n": 36,
+   "detection": "9/9",
+   "missed_as_support": "0/9",
+   "false_alarm": "0/27",
+   "correct_settled_support": "18/27",
+   "true_witness_verified": "9/9",
+   "forged_witness_rejected": "27/27"
+  },
+  "SCALE|heldout": {
+   "n": 40,
+   "detection": "10/10",
+   "missed_as_support": "0/10",
+   "false_alarm": "0/30",
+   "correct_settled_support": "14/30",
+   "true_witness_verified": "10/10",
+   "forged_witness_rejected": "30/30"
+  },
+  "TEMPORAL|dev": {
+   "n": 4,
+   "detection": "1/1",
+   "missed_as_support": "0/1",
+   "false_alarm": "0/3",
+   "correct_settled_support": "3/3",
+   "true_witness_verified": "1/1",
+   "forged_witness_rejected": "3/3"
+  },
+  "TEMPORAL|heldout": {
+   "n": 4,
+   "detection": "1/1",
+   "missed_as_support": "0/1",
+   "false_alarm": "0/3",
+   "correct_settled_support": "2/3",
+   "true_witness_verified": "1/1",
+   "forged_witness_rejected": "3/3"
+  },
+  "VALUE|dev": {
+   "n": 24,
+   "detection": "6/6",
+   "missed_as_support": "0/6",
+   "false_alarm": "0/18",
+   "correct_settled_support": "17/18",
+   "true_witness_verified": "6/6",
+   "forged_witness_rejected": "18/18"
+  },
+  "VALUE|heldout": {
+   "n": 48,
+   "detection": "12/12",
+   "missed_as_support": "0/12",
+   "false_alarm": "0/36",
+   "correct_settled_support": "33/36",
+   "true_witness_verified": "12/12",
+   "forged_witness_rejected": "36/36"
+  }
+ },
+ "by_version": {
+  "original|dev": {
+   "support": 52,
+   "unresolved": 3
+  },
+  "original|heldout": {
+   "support": 53,
+   "unresolved": 12
+  },
+  "paraphrase|dev": {
+   "support": 55
+  },
+  "paraphrase|heldout": {
+   "support": 55,
+   "unresolved": 10
+  },
+  "corruption|dev": {
+   "contradiction": 52,
+   "unresolved": 3
+  },
+  "corruption|heldout": {
+   "contradiction": 41,
+   "unresolved": 24
+  },
+  "provocation|dev": {
+   "support": 26,
+   "unresolved": 29
+  },
+  "provocation|heldout": {
+   "support": 35,
+   "unresolved": 30
+  }
+ },
+ "forgeries": {
+  "true": "100/120",
+  "wrong_field": "107/108",
+  "false_arithmetic": "203/229",
+  "partial_quote": "13/23"
+ },
+ "failures": [
+  {
+   "item_id": "MX-ta-25712-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ta-20782-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-20782-PD-prov",
+   "relation": "PD",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-5804-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "contradiction",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ta-5804-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-17154-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-17154-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-27391-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ta-28755-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ta-28755-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-28755-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-10140-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ta-10140-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-2650-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-2650-PD-prov",
+   "relation": "PD",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-190-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "contradiction",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ta-190-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-19846-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-19846-PD-prov",
+   "relation": "PD",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-12303-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ta-25314-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "contradiction",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ta-25314-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-432-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ta-19446-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-19446-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ta-15815-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ta-10739-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ta-10739-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-12313-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "contradiction",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ho-12313-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-12313-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-12313-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-12313-PD-prov",
+   "relation": "PD",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-301022-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "dev",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-301022-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-301022-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-301022-PD-prov",
+   "relation": "PD",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-219346-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ho-219346-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-219346-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-219346-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-65743-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ho-189241-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "contradiction",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ho-189241-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "wrong_field",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-200056-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "contradiction",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ho-200056-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-246049-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-246049-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-246260-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ho-132442-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "contradiction",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ho-132442-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-106962-CAUSAL-corr",
+   "relation": "CAUSAL",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "semantic_invalid",
+   "witness_ok": false,
+   "witness_problems": [
+    "quoted words contain no causal or action-effect assertion"
+   ]
+  },
+  {
+   "item_id": "MX-ho-106962-CAUSAL-prov",
+   "relation": "CAUSAL",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "unresolved",
+   "witness_kind": "partial_quote",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-52156-DIRECTION-corr",
+   "relation": "DIRECTION",
+   "version": "corruption",
+   "split": "heldout",
+   "label": "error",
+   "status": "unresolved",
+   "witness_kind": "true",
+   "witness_outcome": "unexecutable",
+   "witness_ok": false,
+   "witness_problems": [
+    "no DIRECTION relation could be executed on the quoted words"
+   ]
+  },
+  {
+   "item_id": "MX-ho-37172-PD-orig",
+   "relation": "PD",
+   "version": "original",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-37172-PD-para",
+   "relation": "PD",
+   "version": "paraphrase",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  },
+  {
+   "item_id": "MX-ho-37172-PD-prov",
+   "relation": "PD",
+   "version": "provocation",
+   "split": "heldout",
+   "label": "correct",
+   "status": "support",
+   "witness_kind": "false_arithmetic",
+   "witness_outcome": "semantic_plausible",
+   "witness_ok": false,
+   "witness_problems": []
+  }
+ ]
+}

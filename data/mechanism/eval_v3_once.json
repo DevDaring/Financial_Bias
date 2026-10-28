@@ -1,0 +1,279 @@
+{
+ "generic_judge2__grok45": {
+  "n": 240,
+  "errors_rejected": "60/60",
+  "errors_accepted": "0/60",
+  "correct_accepted": "175/180",
+  "correct_rejected": "5/180",
+  "deferred": 0,
+  "provocations_rejected": "3/60",
+  "calls": 240,
+  "by_relation": {
+   "CAUSAL": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "26/27",
+    "correct_rejected": "1/27",
+    "deferred": 0,
+    "provocations_rejected": "0/9",
+    "calls": 36
+   },
+   "CODE": {
+    "n": 8,
+    "errors_rejected": "2/2",
+    "errors_accepted": "0/2",
+    "correct_accepted": "6/6",
+    "correct_rejected": "0/6",
+    "deferred": 0,
+    "provocations_rejected": "0/2",
+    "calls": 8
+   },
+   "DIRECTION": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "26/27",
+    "correct_rejected": "1/27",
+    "deferred": 0,
+    "provocations_rejected": "0/9",
+    "calls": 36
+   },
+   "PD": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "27/27",
+    "correct_rejected": "0/27",
+    "deferred": 0,
+    "provocations_rejected": "0/9",
+    "calls": 36
+   },
+   "RANK": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "26/27",
+    "correct_rejected": "1/27",
+    "deferred": 0,
+    "provocations_rejected": "1/9",
+    "calls": 36
+   },
+   "SCALE": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "25/27",
+    "correct_rejected": "2/27",
+    "deferred": 0,
+    "provocations_rejected": "2/9",
+    "calls": 36
+   },
+   "TEMPORAL": {
+    "n": 12,
+    "errors_rejected": "3/3",
+    "errors_accepted": "0/3",
+    "correct_accepted": "9/9",
+    "correct_rejected": "0/9",
+    "deferred": 0,
+    "provocations_rejected": "0/3",
+    "calls": 12
+   },
+   "VALUE": {
+    "n": 40,
+    "errors_rejected": "10/10",
+    "errors_accepted": "0/10",
+    "correct_accepted": "30/30",
+    "correct_rejected": "0/30",
+    "deferred": 0,
+    "provocations_rejected": "0/10",
+    "calls": 40
+   }
+  }
+ },
+ "generic_tool_judge__grok45": {
+  "n": 240,
+  "errors_rejected": "59/60",
+  "errors_accepted": "0/60",
+  "correct_accepted": "171/180",
+  "correct_rejected": "5/180",
+  "deferred": 5,
+  "provocations_rejected": "2/60",
+  "calls": 260,
+  "by_relation": {
+   "CAUSAL": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "25/27",
+    "correct_rejected": "1/27",
+    "deferred": 1,
+    "provocations_rejected": "0/9",
+    "calls": 35
+   },
+   "CODE": {
+    "n": 8,
+    "errors_rejected": "2/2",
+    "errors_accepted": "0/2",
+    "correct_accepted": "6/6",
+    "correct_rejected": "0/6",
+    "deferred": 0,
+    "provocations_rejected": "0/2",
+    "calls": 8
+   },
+   "DIRECTION": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "26/27",
+    "correct_rejected": "1/27",
+    "deferred": 0,
+    "provocations_rejected": "0/9",
+    "calls": 39
+   },
+   "PD": {
+    "n": 36,
+    "errors_rejected": "8/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "27/27",
+    "correct_rejected": "0/27",
+    "deferred": 1,
+    "provocations_rejected": "0/9",
+    "calls": 35
+   },
+   "RANK": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "24/27",
+    "correct_rejected": "1/27",
+    "deferred": 2,
+    "provocations_rejected": "1/9",
+    "calls": 50
+   },
+   "SCALE": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "25/27",
+    "correct_rejected": "1/27",
+    "deferred": 1,
+    "provocations_rejected": "1/9",
+    "calls": 36
+   },
+   "TEMPORAL": {
+    "n": 12,
+    "errors_rejected": "3/3",
+    "errors_accepted": "0/3",
+    "correct_accepted": "9/9",
+    "correct_rejected": "0/9",
+    "deferred": 0,
+    "provocations_rejected": "0/3",
+    "calls": 13
+   },
+   "VALUE": {
+    "n": 40,
+    "errors_rejected": "10/10",
+    "errors_accepted": "0/10",
+    "correct_accepted": "29/30",
+    "correct_rejected": "1/30",
+    "deferred": 0,
+    "provocations_rejected": "0/10",
+    "calls": 44
+   }
+  }
+ },
+ "exec_P__grok45": {
+  "n": 240,
+  "errors_rejected": "31/60",
+  "errors_accepted": "1/60",
+  "correct_accepted": "165/180",
+  "correct_rejected": "10/180",
+  "deferred": 33,
+  "provocations_rejected": "8/60",
+  "calls": 149,
+  "by_relation": {
+   "CAUSAL": {
+    "n": 36,
+    "errors_rejected": "1/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "25/27",
+    "correct_rejected": "0/27",
+    "deferred": 10,
+    "provocations_rejected": "0/9",
+    "calls": 41
+   },
+   "CODE": {
+    "n": 8,
+    "errors_rejected": "2/2",
+    "errors_accepted": "0/2",
+    "correct_accepted": "6/6",
+    "correct_rejected": "0/6",
+    "deferred": 0,
+    "provocations_rejected": "0/2",
+    "calls": 1
+   },
+   "DIRECTION": {
+    "n": 36,
+    "errors_rejected": "4/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "21/27",
+    "correct_rejected": "4/27",
+    "deferred": 7,
+    "provocations_rejected": "2/9",
+    "calls": 30
+   },
+   "PD": {
+    "n": 36,
+    "errors_rejected": "2/9",
+    "errors_accepted": "1/9",
+    "correct_accepted": "27/27",
+    "correct_rejected": "0/27",
+    "deferred": 6,
+    "provocations_rejected": "0/9",
+    "calls": 18
+   },
+   "RANK": {
+    "n": 36,
+    "errors_rejected": "3/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "26/27",
+    "correct_rejected": "0/27",
+    "deferred": 7,
+    "provocations_rejected": "0/9",
+    "calls": 36
+   },
+   "SCALE": {
+    "n": 36,
+    "errors_rejected": "9/9",
+    "errors_accepted": "0/9",
+    "correct_accepted": "22/27",
+    "correct_rejected": "5/27",
+    "deferred": 0,
+    "provocations_rejected": "5/9",
+    "calls": 1
+   },
+   "TEMPORAL": {
+    "n": 12,
+    "errors_rejected": "2/3",
+    "errors_accepted": "0/3",
+    "correct_accepted": "9/9",
+    "correct_rejected": "0/9",
+    "deferred": 1,
+    "provocations_rejected": "0/3",
+    "calls": 10
+   },
+   "VALUE": {
+    "n": 40,
+    "errors_rejected": "8/10",
+    "errors_accepted": "0/10",
+    "correct_accepted": "29/30",
+    "correct_rejected": "1/30",
+    "deferred": 2,
+    "provocations_rejected": "1/10",
+    "calls": 12
+   }
+  }
+ },
+ "note": "held-out v3: annotator-written sentences, checker executable/1.4 frozen before scoring; writer-intent labels, blind second-rater validation pending"
+}

@@ -1,0 +1,115 @@
+{
+ "n_case_answers": 180,
+ "conditions": {
+  "G": {
+   "pd_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "driver_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "direction_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "false_alarm_when_correct": {
+    "mean": 0.178,
+    "n": 45
+   },
+   "clarify": {
+    "mean": 0.4,
+    "n": 60
+   },
+   "useful": {
+    "mean": 3.55,
+    "n": 60
+   },
+   "minutes": {
+    "mean": 3.3,
+    "n": 60
+   },
+   "shown_wrong": {
+    "mean": 0.25,
+    "n": 60
+   },
+   "detected_when_wrong": {
+    "mean": 0.867,
+    "n": 15
+   }
+  },
+  "R": {
+   "pd_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "driver_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "direction_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "false_alarm_when_correct": {
+    "mean": 0.238,
+    "n": 42
+   },
+   "clarify": {
+    "mean": 0.417,
+    "n": 60
+   },
+   "useful": {
+    "mean": 3.5,
+    "n": 60
+   },
+   "minutes": {
+    "mean": 3.283,
+    "n": 60
+   },
+   "shown_wrong": {
+    "mean": 0.3,
+    "n": 60
+   },
+   "detected_when_wrong": {
+    "mean": 0.889,
+    "n": 18
+   }
+  },
+  "T": {
+   "pd_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "driver_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "direction_ok": {
+    "mean": 1.0,
+    "n": 60
+   },
+   "false_alarm_when_correct": {
+    "mean": 0.017,
+    "n": 60
+   },
+   "clarify": {
+    "mean": 0.3,
+    "n": 60
+   },
+   "useful": {
+    "mean": 3.9,
+    "n": 60
+   },
+   "minutes": {
+    "mean": 3.95,
+    "n": 60
+   },
+   "shown_wrong": {
+    "mean": 0.0,
+    "n": 60
+   }
+  }
+ }
+}

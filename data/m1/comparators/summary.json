@@ -1,0 +1,12 @@
+{
+ "exec_P__grok45": {
+  "n_err": 67,
+  "n_ok": 232,
+  "false_accept": 27,
+  "false_reject": 1,
+  "unresolved": 20,
+  "a": 0.403,
+  "b": 0.004,
+  "coverage_on_clean": 0.957
+ }
+}

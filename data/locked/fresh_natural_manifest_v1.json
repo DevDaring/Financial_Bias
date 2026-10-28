@@ -1,0 +1,59 @@
+{
+ "version": "fresh-natural/1.0",
+ "seed": 20261009,
+ "producers": [
+  "nova_lite",
+  "ministral_8b"
+ ],
+ "per_stratum": 100,
+ "frozen_verifiers": {
+  "executable": "executable/1.4",
+  "dispute": "dispute/1.0",
+  "source_sha256_16": {
+   "witness.py": "9266248755868b9e",
+   "executable_verifier.py": "a85e4613ef53acdd",
+   "dispute.py": "7f918b5898622e16",
+   "comparators2.py": "86bbc8030614e3f4",
+   "contract.py": "514e30cffef32fc3"
+  }
+ },
+ "role": "locked_evaluation",
+ "strata": {
+  "taiwan|female": {
+   "pool": 1798,
+   "sampled": 100,
+   "band_cuts": [
+    0.12128,
+    0.21622
+   ]
+  },
+  "taiwan|male": {
+   "pool": 1208,
+   "sampled": 100,
+   "band_cuts": [
+    0.12128,
+    0.22281
+   ]
+  },
+  "home_credit|F": {
+   "pool": 4010,
+   "sampled": 100,
+   "band_cuts": [
+    0.03461,
+    0.08057
+   ]
+  },
+  "home_credit|M": {
+   "pool": 2063,
+   "sampled": 100,
+   "band_cuts": [
+    0.04717,
+    0.08158
+   ]
+  }
+ },
+ "results": {
+  "grounded:True": 400,
+  "template:True": 400
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "gpu": "NVIDIA A100 80GB (Vast.ai), 2 instances",
+ "framework": "vLLM (FlashAttention backend), google/gemma-3-27b-it bf16",
+ "gpu_hours": 5.4,
+ "usd": 8.46,
+ "credit_left": 13.57,
+ "note": "usd = Vast.ai credit consumed across three A100 sessions (7 and 9 Oct), incl. storage and two failed starts"
+}

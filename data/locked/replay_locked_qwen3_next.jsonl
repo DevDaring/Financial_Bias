@@ -1,0 +1,400 @@
+{"item_id": "FN-503f6e1ec0", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-571ae90434", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-6de968d50d", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-5af0ce5e0b", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-087f7f1243", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4083e9eecd", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-554d6504c1", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7f1e1f6651", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-4553471245", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-659e284805", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c63e8a057a", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-f8e6e998d0", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e6bfccab2d", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7098ab4209", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8158cab33c", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-77f8a78a04", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-eb7e6c87ae", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-879a2cc7a7", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-36e0443b01", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-db39eaf855", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-95d1f08689", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-af203e30d6", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a150a190b0", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-eb3a2ee1bb", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2925, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2982}
+{"item_id": "FN-851321b113", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3120, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3165}
+{"item_id": "FN-de9df3af8e", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-30ba7343c8", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-15b1a94a5d", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-46646f5bad", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-23382b5e7b", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2953, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3106}
+{"item_id": "FN-cd98b6c615", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-2262cfe923", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3344, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3468}
+{"item_id": "FN-072faffe8c", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3870, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3923}
+{"item_id": "FN-9f95b85fe9", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-451ed47342", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-b8a1cb2de9", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-a39b08e499", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-055cf1c899", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-89e278e044", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-b8993560d5", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-02c9ea424b", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f1eb652b4d", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3250, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3284}
+{"item_id": "FN-4a110ea55c", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-bc68db9efd", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3410, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3392}
+{"item_id": "FN-d4027113e8", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-dcbb0bceb3", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-35737a2a06", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-b6d5db6ed0", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-505b159d04", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-16d0c55255", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3323, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3595}
+{"item_id": "FN-e75936f3cc", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3086, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3069}
+{"item_id": "FN-87d74dbb39", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-cf8c394220", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-b73b7abcbd", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3364, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3392}
+{"item_id": "FN-aa11965ce7", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-413dcb0395", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-ae58396c10", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-26ee54bed7", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-9b8c068acf", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-cd442ac724", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4690d65d04", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-069611fdb5", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 4548, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4576}
+{"item_id": "FN-54aa0e35e7", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3357, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3578}
+{"item_id": "FN-da9673c1a6", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3713, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3702}
+{"item_id": "FN-2b8e46e37a", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e1bca78fca", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1404994d4f", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-18cf1fd2cf", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-80ba7a1e55", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-0daf7f3509", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3468, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3504}
+{"item_id": "FN-eac9dc5da4", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 3492, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3630}
+{"item_id": "FN-92c769d723", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-0553196a2e", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d9b0d79f5d", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-0f2d5ca676", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a0a33883b3", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-eae9cb44b6", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 3672, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 3834}
+{"item_id": "FN-0ff47c219c", "first_stage": "unparsed", "none": null, "execute": null, "D": null, "R": null, "R11": null, "P": null}
+{"item_id": "FN-76cdc4da8a", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3331, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3592}
+{"item_id": "FN-fab0d76925", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f2e65150ac", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-90b21ca2bd", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-969789b09a", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-2b2bfe1b5d", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 4451, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3918}
+{"item_id": "FN-c0d7a75904", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3494, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3500}
+{"item_id": "FN-84adde04bc", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-34c950db91", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2719, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2755}
+{"item_id": "FN-96f889571b", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 4013, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4045}
+{"item_id": "FN-dd00d4bcf1", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f1260480b6", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3258, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3493}
+{"item_id": "FN-9e6d6208ae", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-236820fd57", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1154e8672d", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 3645, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 3797}
+{"item_id": "FN-fe0f3732e8", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 3758, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3790}
+{"item_id": "FN-2eec9539a8", "first_stage": "unparsed", "none": null, "execute": null, "D": null, "R": null, "R11": null, "P": null}
+{"item_id": "FN-46e3d4a93e", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1484cc5892", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a459a73610", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3401, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3618}
+{"item_id": "FN-a620258460", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-32c76daaad", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-ccccff846c", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-2c1ca7f2d1", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 4522, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4258}
+{"item_id": "FN-ff8e561ad8", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d1e7984351", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-5ea45c0706", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3547, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3791}
+{"item_id": "FN-93d88c2654", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3682, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3889}
+{"item_id": "FN-19152c0648", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3273, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3279}
+{"item_id": "FN-802d2adfcc", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 3599, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 3544}
+{"item_id": "FN-d039affb15", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f735a02455", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-62333766a8", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-5c8d3f8104", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-c4c48a46e7", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-51a3298a52", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d9afd06233", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-385e4e2a2d", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-7fae35d5a3", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d027be37a0", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-ffaf108c48", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-afd20d3c31", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-841c2c6a11", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3676, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3513}
+{"item_id": "FN-03a2a8d064", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4d1291c886", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-96931c037e", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-261dac68aa", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f067a452ca", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3460, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3389}
+{"item_id": "FN-7b665a3a74", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c4137707e8", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1592407a38", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-eb8aa28863", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3582, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3558}
+{"item_id": "FN-7569cc0517", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 4215, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 4161}
+{"item_id": "FN-226d9b4c70", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-50d7082ee7", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2981, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2822}
+{"item_id": "FN-48ad13fdc7", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-67e2f0e7f2", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-97453ef6f7", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-a990463de3", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1fd3cf24a4", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-acc029e1a3", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-886bde081f", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 4221, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3879}
+{"item_id": "FN-3554c594b8", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 4151, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4123}
+{"item_id": "FN-c91da1aea0", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3778, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4226}
+{"item_id": "FN-208e0a9ca9", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-83ba630331", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3668, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3527}
+{"item_id": "FN-ad8a81f394", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-fdfe679c4d", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e9cc9462dc", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-40a1ddea16", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-96717a8b09", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-beea1146be", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-07116c24c4", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3351, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3412}
+{"item_id": "FN-3a4cbbc424", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e8df3d39ee", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8c58571ffb", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-33bcaba5ab", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3709, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3827}
+{"item_id": "FN-234f9102f5", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-923d99d409", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-2a19a42e36", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3418, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3589}
+{"item_id": "FN-58df8987c9", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-6291c85423", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-b1afd7dde9", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3659, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3609}
+{"item_id": "FN-f22ae35438", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3916, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 4062}
+{"item_id": "FN-8da8ad3c7c", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-df3e09b3bc", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-54332a060b", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-780a5c1cf2", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-6982cba035", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2745, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2818}
+{"item_id": "FN-add2e0d61e", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3946, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3971}
+{"item_id": "FN-195c9c98ea", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-53c9a70e2c", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c462a9ad47", "first_stage": "unparsed", "none": null, "execute": null, "D": null, "R": null, "R11": null, "P": null}
+{"item_id": "FN-14d96b3530", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 4404, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4602}
+{"item_id": "FN-39947b7a75", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3851, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3654}
+{"item_id": "FN-ede89fe62b", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3486, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3364}
+{"item_id": "FN-71e0c70ab1", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3486, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3612}
+{"item_id": "FN-9873409d90", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-2bc7e50030", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e782beed90", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3489, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3813}
+{"item_id": "FN-618bed4031", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 4663, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4430}
+{"item_id": "FN-e84c6d0cac", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8411792a46", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3376, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3653}
+{"item_id": "FN-2603d90366", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 4272, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 4640}
+{"item_id": "FN-0c9ab90970", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-dfa2c76657", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3931, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3954}
+{"item_id": "FN-0e66ca77c6", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-00f5f9538a", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-16b662a823", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8fa0e9e7dc", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-22957a0ce9", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-5d01ade33e", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7b30a66fe2", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-64c6e305d1", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d6904b1657", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7f18f601ef", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-13bd20505e", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1cd3c20f78", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-95c5ac9183", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1e790281ba", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c6fc68286c", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-705ec06d7b", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-cdd1f3970c", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-f2ff2f6fc5", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-9d4d470d62", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-641c9ad100", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-c79afc79c5", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3967, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3855}
+{"item_id": "FN-66d0641d6f", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-60ea714c87", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3894, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3760}
+{"item_id": "FN-3b349f5055", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-100feb61b1", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3587, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3837}
+{"item_id": "FN-fe4953b000", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3492, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3488}
+{"item_id": "FN-aec88aa125", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-041dc5a60a", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-de0bd65fef", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-a8726a468a", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-564466f639", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 5075, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 5027}
+{"item_id": "FN-44001aa165", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3679, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3732}
+{"item_id": "FN-a2ec6bce17", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-1ea6119228", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1548d2dba7", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d734104541", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a79d0a91d0", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8912ead040", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-739e9e360a", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-2df621a1d7", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-14b4448e7b", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3537, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 4072}
+{"item_id": "FN-9928770308", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-5d2ca6ec59", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-558feb26e3", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-80663a1634", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-7a5d43f48e", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-433de9ac1f", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-058ec748d2", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-45e37e27b0", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3826, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 4276}
+{"item_id": "FN-24d058d408", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-3865baabd8", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-02aec7e6c0", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-9b783a4b9b", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1d0bf665c2", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-cdbb10bb68", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 1839, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 1911}
+{"item_id": "FN-48c56625f4", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-0b880763e7", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a455958131", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3689, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3533}
+{"item_id": "FN-73ebb3a562", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7f80851211", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8cbfad46b4", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-1777697aa7", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-99a2eb9d6e", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-088697a713", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-cb86d64093", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2981, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2755}
+{"item_id": "FN-15a3fb56e2", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2488, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2751}
+{"item_id": "FN-6430237d77", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3675, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3907}
+{"item_id": "FN-a66c0d39c0", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-9e095f489e", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-9683e19ac7", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-2ce4718230", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 2186, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2148}
+{"item_id": "FN-9480deaf0e", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2812, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2660}
+{"item_id": "FN-c4142f9a61", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8fcc7f1421", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-980003469e", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 2711, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 2537}
+{"item_id": "FN-78fe438184", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-76c264a764", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c6d266a377", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-30ea40288f", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7a7d342061", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3328, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2857}
+{"item_id": "FN-492b2f144f", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-28d1c75326", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a84bf2cd40", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2203, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2294}
+{"item_id": "FN-64893ae1c0", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 2401, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 2459}
+{"item_id": "FN-4e2e2b77ac", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-df775d1fdb", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-10fc56ef1f", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1d5ca9a230", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e2fd7c2669", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-98217bf08a", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-3dc0f2ac1c", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8c87c23d05", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8af4bb7a92", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-39ba3f0930", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3015, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 3509}
+{"item_id": "FN-220880f068", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-775c15fbb4", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-42d1db6b95", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-dc873da11f", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3145, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3346}
+{"item_id": "FN-3c8e9f4e5f", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c255f8854f", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-0d95159aab", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d825498468", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e93c8dca79", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-cbb6667281", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2359, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2270}
+{"item_id": "FN-fe7f51122f", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-7d72d7d87e", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f04b185e7e", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-05365eb910", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-064e161a5a", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2059, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2171}
+{"item_id": "FN-324c66aef6", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-ba57a4d1b5", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-cf4cdcb7e6", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-0b906ededc", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a9bb2e5325", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-ca52071a6c", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3521, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 4161}
+{"item_id": "FN-e5725ee0dd", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2000, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2044}
+{"item_id": "FN-35bb434748", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-8d2c493b9c", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3124, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3566}
+{"item_id": "FN-8e7701a37d", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2203, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2240}
+{"item_id": "FN-9fd7244827", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3489, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3467}
+{"item_id": "FN-ea44c056c5", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3055, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3121}
+{"item_id": "FN-9958827d36", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-61d2742fd5", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f9f4f7cda0", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2660, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2794}
+{"item_id": "FN-b625f1b139", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-fdf1de07ba", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2637, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2785}
+{"item_id": "FN-1d3eb77fa3", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-44a1419225", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4333ec9604", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-dd356b6cd4", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-97b4a503d7", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-701748d411", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 2475, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2594}
+{"item_id": "FN-c5153f22cf", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4066cb1dab", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-11c6275cfd", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4f81071da5", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f42455b4da", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-107b2d31f7", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3325, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3358}
+{"item_id": "FN-db92c7d72d", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3017, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3055}
+{"item_id": "FN-0c92087313", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-c421aff66e", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d31c129ed2", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3098, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3077}
+{"item_id": "FN-11a3787587", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-861d0ee3f0", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-27bcd4615e", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-2bc9e021ef", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-be85c4f875", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-1768c60390", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 1831, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 1942}
+{"item_id": "FN-480ec630e6", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2097, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2154}
+{"item_id": "FN-1d47891875", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3221, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2839}
+{"item_id": "FN-b57d28c9bb", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2483, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2332}
+{"item_id": "FN-092b7e0aed", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-670d1d2351", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 2706, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2755}
+{"item_id": "FN-14f1315c3a", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2660, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2614}
+{"item_id": "FN-3a1a5e893a", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-99e38b52c7", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-981a5d60af", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-1f2fe12633", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c42fdf2b8f", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2726, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2675}
+{"item_id": "FN-c03e08093f", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 2352, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2401}
+{"item_id": "FN-f24f622f70", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-bf80988bed", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-312dc12301", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-33d99d4d1d", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-f8b51f404c", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-11e36818e7", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-e17df0bbd0", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-2ecab76e7f", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2796, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2910}
+{"item_id": "FN-0c82df96c1", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-0ef02519ea", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-8086adb757", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-86bf911826", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4440eaa9ef", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-88316be677", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-b75a8f2c4a", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 1856, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 1896}
+{"item_id": "FN-017e439f22", "first_stage": "llm", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-4568fc370d", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2496, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2564}
+{"item_id": "FN-ed41e4fab7", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2810, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2592}
+{"item_id": "FN-80c4011fdb", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-78f1851a08", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-1db04288b7", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-8198459352", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-339be65dad", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-51bb810422", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-8b60abae5c", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3337, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2933}
+{"item_id": "FN-0feda2d7b7", "first_stage": "llm", "none": false, "execute": null, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2754, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2963}
+{"item_id": "FN-7dd570337f", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2379, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2385}
+{"item_id": "FN-8c5e75fd86", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-2d207f5642", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3136, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2660}
+{"item_id": "FN-172b2be35e", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-1bdb9f7622", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-ee284f4d2c", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7024b22ead", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-a6c3cdee58", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-b4e62efe01", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2089, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2258}
+{"item_id": "FN-7b43c6e22b", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-ea2601245a", "first_stage": "llm", "none": false, "execute": true, "P": true, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2003, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2019}
+{"item_id": "FN-445c582221", "first_stage": "code_only", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-4cf97af73e", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2769, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2726}
+{"item_id": "FN-874f248b04", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": false, "R_why": "dispute_resolved_contradiction", "R_tokens": 3106, "R11": false, "R11_why": "dispute_resolved_contradiction", "R11_tokens": 2819}
+{"item_id": "FN-9335a0c4fe", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-c2117a3cf7", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2474, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2477}
+{"item_id": "FN-960824324f", "first_stage": "code_only", "none": false, "execute": false, "P": false, "D": false, "R": false, "R11": false}
+{"item_id": "FN-f53c052dd9", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-22946268bc", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-d05adafa92", "first_stage": "llm", "none": true, "execute": true, "P": true, "D": true, "R": true, "R11": true}
+{"item_id": "FN-7426bbb492", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2294, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2432}
+{"item_id": "FN-a0116a5d6e", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 2776, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2794}
+{"item_id": "FN-da9a84f81f", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2208, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2322}
+{"item_id": "FN-b9513ebf8e", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 3044, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 3623}
+{"item_id": "FN-d3bf431bf0", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 2473, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2348}
+{"item_id": "FN-41875b49c3", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2911, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3038}
+{"item_id": "FN-36c988dc03", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 2618, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 2601}
+{"item_id": "FN-49be8b9dce", "first_stage": "llm", "none": false, "execute": null, "P": false, "D": null, "disputed": true, "R": true, "R_why": "dispute_resolved_supported", "R_tokens": 2726, "R11": true, "R11_why": "dispute_resolved_supported", "R11_tokens": 2682}
+{"item_id": "FN-96bb0741bf", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3138, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3303}
+{"item_id": "FN-ec26cacee5", "first_stage": "llm", "none": false, "execute": null, "P": null, "D": null, "disputed": true, "R": null, "R_why": "dispute_unresolved", "R_tokens": 3607, "R11": null, "R11_why": "dispute_unresolved", "R11_tokens": 3659}

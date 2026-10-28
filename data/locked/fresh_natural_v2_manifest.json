@@ -1,0 +1,16 @@
+{
+ "narratives": 774,
+ "producer_failures_excluded": 26,
+ "by_cell": {
+  "nova_lite/grounded": 200,
+  "ministral_8b/grounded": 200,
+  "ministral_8b/applicant": 174,
+  "glm47/grounded": 200
+ },
+ "failures_by_cell": {
+  "ministral_8b/applicant": 26
+ },
+ "retries": 28,
+ "templates_sampled": 200,
+ "retry_rule": "one regeneration with a new seed after an unparseable output (prespecified)"
+}

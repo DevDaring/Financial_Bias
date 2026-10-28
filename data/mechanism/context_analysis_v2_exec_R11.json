@@ -1,0 +1,1039 @@
+{
+ "n_passages": 480,
+ "n_base": 80,
+ "reference": "exec_R11",
+ "judges": {
+  "gemma27_vllm": {
+   "methods": {
+    "exec_R11": {
+     "by_context": {
+      "alone": {
+       "escape": 0.0875,
+       "retention": 0.9125,
+       "unresolved": 0.0625,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.2,
+       "retention": 0.8875,
+       "unresolved": 0.0437,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.0375,
+       "retention": 0.7875,
+       "unresolved": 0.15,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 0.64,
+     "tokens_per_item": 1928.4
+    },
+    "exec_R": {
+     "by_context": {
+      "alone": {
+       "escape": 0.1125,
+       "retention": 0.925,
+       "unresolved": 0.05,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.1625,
+       "retention": 0.9125,
+       "unresolved": 0.0437,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.0125,
+       "retention": 0.7,
+       "unresolved": 0.2125,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 0.62,
+     "tokens_per_item": 1897.9
+    },
+    "generic_rubric": {
+     "by_context": {
+      "alone": {
+       "escape": 0.1,
+       "retention": 0.525,
+       "unresolved": 0.0,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.0,
+       "retention": 0.0625,
+       "unresolved": 0.0,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.1625,
+       "retention": 0.7125,
+       "unresolved": 0.0,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 1.0,
+     "tokens_per_item": 2565.4
+    }
+   },
+   "interaction": {
+    "exec_R_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": -0.0625,
+      "ci95": [
+       -0.1375,
+       0.0
+      ],
+      "X_minus_R_alone": 0.025,
+      "X_minus_R_claims": -0.0375
+     },
+     "escape|filler_vs_alone": {
+      "DiD": -0.05,
+      "ci95": [
+       -0.1125,
+       0.0
+      ],
+      "X_minus_R_alone": 0.025,
+      "X_minus_R_filler": -0.025
+     },
+     "retention|claims_vs_alone": {
+      "DiD": 0.0125,
+      "ci95": [
+       -0.025,
+       0.0625
+      ],
+      "X_minus_R_alone": 0.0125,
+      "X_minus_R_claims": 0.025
+     },
+     "retention|filler_vs_alone": {
+      "DiD": -0.1,
+      "ci95": [
+       -0.175,
+       -0.025
+      ],
+      "X_minus_R_alone": 0.0125,
+      "X_minus_R_filler": -0.0875
+     }
+    },
+    "generic_rubric_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": -0.2125,
+      "ci95": [
+       -0.3125,
+       -0.1125
+      ],
+      "X_minus_R_alone": 0.0125,
+      "X_minus_R_claims": -0.2
+     },
+     "escape|filler_vs_alone": {
+      "DiD": 0.1125,
+      "ci95": [
+       0.025,
+       0.2125
+      ],
+      "X_minus_R_alone": 0.0125,
+      "X_minus_R_filler": 0.125
+     },
+     "retention|claims_vs_alone": {
+      "DiD": -0.4375,
+      "ci95": [
+       -0.5625,
+       -0.3125
+      ],
+      "X_minus_R_alone": -0.3875,
+      "X_minus_R_claims": -0.825
+     },
+     "retention|filler_vs_alone": {
+      "DiD": 0.3125,
+      "ci95": [
+       0.2,
+       0.425
+      ],
+      "X_minus_R_alone": -0.3875,
+      "X_minus_R_filler": -0.075
+     }
+    }
+   },
+   "by_relation": {
+    "exec_R11": {
+     "RANK": {
+      "escape": "0/45",
+      "retention": "42/45"
+     },
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "45/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "39/45"
+     },
+     "REFERENCE": {
+      "escape": "12/42",
+      "retention": "40/42"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "18/18"
+     },
+     "NEGATION": {
+      "escape": "14/45",
+      "retention": "23/45"
+     }
+    },
+    "exec_R": {
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "43/45"
+     },
+     "RANK": {
+      "escape": "0/45",
+      "retention": "42/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "37/45"
+     },
+     "REFERENCE": {
+      "escape": "10/42",
+      "retention": "38/42"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "17/18"
+     },
+     "NEGATION": {
+      "escape": "13/45",
+      "retention": "26/45"
+     }
+    },
+    "generic_rubric": {
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "23/45"
+     },
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "30/45"
+     },
+     "RANK": {
+      "escape": "1/45",
+      "retention": "3/45"
+     },
+     "NEGATION": {
+      "escape": "4/45",
+      "retention": "9/45"
+     },
+     "REFERENCE": {
+      "escape": "4/42",
+      "retention": "28/42"
+     },
+     "TEMPORAL": {
+      "escape": "12/18",
+      "retention": "11/18"
+     }
+    }
+   }
+  },
+  "qwen3_next": {
+   "methods": {
+    "exec_A0": {
+     "by_context": {
+      "alone": {
+       "escape": 0.0625,
+       "retention": 0.7625,
+       "unresolved": 0.25,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.05,
+       "retention": 0.6375,
+       "unresolved": 0.3187,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.0,
+       "retention": 0.0,
+       "unresolved": 0.6625,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 0.0,
+     "tokens_per_item": 0.0
+    },
+    "exec_D": {
+     "by_context": {
+      "alone": {
+       "escape": 0.075,
+       "retention": 0.9125,
+       "unresolved": 0.1688,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.05,
+       "retention": 0.8125,
+       "unresolved": 0.2313,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.0125,
+       "retention": 0.1,
+       "unresolved": 0.6062,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 0.41,
+     "tokens_per_item": 1339.3
+    },
+    "exec_P": {
+     "by_context": {
+      "alone": {
+       "escape": 0.0625,
+       "retention": 0.925,
+       "unresolved": 0.1688,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.075,
+       "retention": 0.85,
+       "unresolved": 0.2,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.025,
+       "retention": 0.1625,
+       "unresolved": 0.5687,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 0.74,
+     "tokens_per_item": 2458.4
+    },
+    "exec_R11": {
+     "by_context": {
+      "alone": {
+       "escape": 0.0875,
+       "retention": 0.95,
+       "unresolved": 0.0813,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.0625,
+       "retention": 0.925,
+       "unresolved": 0.0625,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.0375,
+       "retention": 0.925,
+       "unresolved": 0.075,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 0.75,
+     "tokens_per_item": 2278.1
+    },
+    "exec_R": {
+     "by_context": {
+      "alone": {
+       "escape": 0.0625,
+       "retention": 0.9375,
+       "unresolved": 0.0625,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.0625,
+       "retention": 0.9625,
+       "unresolved": 0.05,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.0125,
+       "retention": 0.125,
+       "unresolved": 0.5062,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 0.75,
+     "tokens_per_item": 2261.5
+    },
+    "facts_judge": {
+     "by_context": {
+      "alone": {
+       "escape": 0.05,
+       "retention": 0.875,
+       "unresolved": 0.0063,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.1375,
+       "retention": 0.9125,
+       "unresolved": 0.0063,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.15,
+       "retention": 0.975,
+       "unresolved": 0.0,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 1.0,
+     "tokens_per_item": 2841.0
+    },
+    "forced_tool_judge": {
+     "by_context": {
+      "alone": {
+       "escape": 0.05,
+       "retention": 0.925,
+       "unresolved": 0.0063,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.1875,
+       "retention": 0.775,
+       "unresolved": 0.0,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.3,
+       "retention": 0.9375,
+       "unresolved": 0.0125,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 2.9,
+     "tokens_per_item": 8664.5
+    },
+    "generic_judge2": {
+     "by_context": {
+      "alone": {
+       "escape": 0.1125,
+       "retention": 0.825,
+       "unresolved": 0.0,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.1125,
+       "retention": 0.425,
+       "unresolved": 0.0063,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.45,
+       "retention": 0.9625,
+       "unresolved": 0.0,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 1.0,
+     "tokens_per_item": 2259.1
+    },
+    "generic_rubric": {
+     "by_context": {
+      "alone": {
+       "escape": 0.025,
+       "retention": 0.8,
+       "unresolved": 0.0125,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "claims": {
+       "escape": 0.0875,
+       "retention": 0.6625,
+       "unresolved": 0.0063,
+       "n_wrong": 80,
+       "n_correct": 80
+      },
+      "filler": {
+       "escape": 0.275,
+       "retention": 0.9,
+       "unresolved": 0.0063,
+       "n_wrong": 80,
+       "n_correct": 80
+      }
+     },
+     "calls_per_item": 1.0,
+     "tokens_per_item": 2527.4
+    }
+   },
+   "interaction": {
+    "exec_A0_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.0125,
+      "ci95": [
+       -0.025,
+       0.05
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_claims": -0.0125
+     },
+     "escape|filler_vs_alone": {
+      "DiD": -0.0125,
+      "ci95": [
+       -0.0625,
+       0.025
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_filler": -0.0375
+     },
+     "retention|claims_vs_alone": {
+      "DiD": -0.1,
+      "ci95": [
+       -0.1875,
+       -0.025
+      ],
+      "X_minus_R_alone": -0.1875,
+      "X_minus_R_claims": -0.2875
+     },
+     "retention|filler_vs_alone": {
+      "DiD": -0.7375,
+      "ci95": [
+       -0.8375,
+       -0.625
+      ],
+      "X_minus_R_alone": -0.1875,
+      "X_minus_R_filler": -0.925
+     }
+    },
+    "exec_D_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.0,
+      "ci95": [
+       -0.05,
+       0.05
+      ],
+      "X_minus_R_alone": -0.0125,
+      "X_minus_R_claims": -0.0125
+     },
+     "escape|filler_vs_alone": {
+      "DiD": -0.0125,
+      "ci95": [
+       -0.0625,
+       0.0375
+      ],
+      "X_minus_R_alone": -0.0125,
+      "X_minus_R_filler": -0.025
+     },
+     "retention|claims_vs_alone": {
+      "DiD": -0.075,
+      "ci95": [
+       -0.15,
+       0.0
+      ],
+      "X_minus_R_alone": -0.0375,
+      "X_minus_R_claims": -0.1125
+     },
+     "retention|filler_vs_alone": {
+      "DiD": -0.7875,
+      "ci95": [
+       -0.9,
+       -0.6625
+      ],
+      "X_minus_R_alone": -0.0375,
+      "X_minus_R_filler": -0.825
+     }
+    },
+    "exec_P_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.0375,
+      "ci95": [
+       -0.0125,
+       0.0875
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_claims": 0.0125
+     },
+     "escape|filler_vs_alone": {
+      "DiD": 0.0125,
+      "ci95": [
+       -0.0375,
+       0.075
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_filler": -0.0125
+     },
+     "retention|claims_vs_alone": {
+      "DiD": -0.05,
+      "ci95": [
+       -0.1125,
+       0.0
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_claims": -0.075
+     },
+     "retention|filler_vs_alone": {
+      "DiD": -0.7375,
+      "ci95": [
+       -0.8375,
+       -0.625
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_filler": -0.7625
+     }
+    },
+    "exec_R_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.025,
+      "ci95": [
+       -0.025,
+       0.075
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_claims": 0.0
+     },
+     "escape|filler_vs_alone": {
+      "DiD": -0.0,
+      "ci95": [
+       -0.05,
+       0.05
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_filler": -0.025
+     },
+     "retention|claims_vs_alone": {
+      "DiD": 0.05,
+      "ci95": [
+       -0.0125,
+       0.125
+      ],
+      "X_minus_R_alone": -0.0125,
+      "X_minus_R_claims": 0.0375
+     },
+     "retention|filler_vs_alone": {
+      "DiD": -0.7875,
+      "ci95": [
+       -0.9,
+       -0.6625
+      ],
+      "X_minus_R_alone": -0.0125,
+      "X_minus_R_filler": -0.8
+     }
+    },
+    "facts_judge_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.1125,
+      "ci95": [
+       0.0375,
+       0.2
+      ],
+      "X_minus_R_alone": -0.0375,
+      "X_minus_R_claims": 0.075
+     },
+     "escape|filler_vs_alone": {
+      "DiD": 0.15,
+      "ci95": [
+       0.0375,
+       0.275
+      ],
+      "X_minus_R_alone": -0.0375,
+      "X_minus_R_filler": 0.1125
+     },
+     "retention|claims_vs_alone": {
+      "DiD": 0.0625,
+      "ci95": [
+       -0.0125,
+       0.1375
+      ],
+      "X_minus_R_alone": -0.075,
+      "X_minus_R_claims": -0.0125
+     },
+     "retention|filler_vs_alone": {
+      "DiD": 0.125,
+      "ci95": [
+       0.0375,
+       0.2125
+      ],
+      "X_minus_R_alone": -0.075,
+      "X_minus_R_filler": 0.05
+     }
+    },
+    "forced_tool_judge_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.1625,
+      "ci95": [
+       0.0625,
+       0.2625
+      ],
+      "X_minus_R_alone": -0.0375,
+      "X_minus_R_claims": 0.125
+     },
+     "escape|filler_vs_alone": {
+      "DiD": 0.3,
+      "ci95": [
+       0.1875,
+       0.425
+      ],
+      "X_minus_R_alone": -0.0375,
+      "X_minus_R_filler": 0.2625
+     },
+     "retention|claims_vs_alone": {
+      "DiD": -0.125,
+      "ci95": [
+       -0.225,
+       -0.0375
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_claims": -0.15
+     },
+     "retention|filler_vs_alone": {
+      "DiD": 0.0375,
+      "ci95": [
+       -0.0375,
+       0.125
+      ],
+      "X_minus_R_alone": -0.025,
+      "X_minus_R_filler": 0.0125
+     }
+    },
+    "generic_judge2_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.025,
+      "ci95": [
+       -0.075,
+       0.125
+      ],
+      "X_minus_R_alone": 0.025,
+      "X_minus_R_claims": 0.05
+     },
+     "escape|filler_vs_alone": {
+      "DiD": 0.3875,
+      "ci95": [
+       0.25,
+       0.525
+      ],
+      "X_minus_R_alone": 0.025,
+      "X_minus_R_filler": 0.4125
+     },
+     "retention|claims_vs_alone": {
+      "DiD": -0.375,
+      "ci95": [
+       -0.5,
+       -0.25
+      ],
+      "X_minus_R_alone": -0.125,
+      "X_minus_R_claims": -0.5
+     },
+     "retention|filler_vs_alone": {
+      "DiD": 0.1625,
+      "ci95": [
+       0.0625,
+       0.275
+      ],
+      "X_minus_R_alone": -0.125,
+      "X_minus_R_filler": 0.0375
+     }
+    },
+    "generic_rubric_vs_exec_R11": {
+     "escape|claims_vs_alone": {
+      "DiD": 0.0875,
+      "ci95": [
+       0.0125,
+       0.1625
+      ],
+      "X_minus_R_alone": -0.0625,
+      "X_minus_R_claims": 0.025
+     },
+     "escape|filler_vs_alone": {
+      "DiD": 0.3,
+      "ci95": [
+       0.1875,
+       0.425
+      ],
+      "X_minus_R_alone": -0.0625,
+      "X_minus_R_filler": 0.2375
+     },
+     "retention|claims_vs_alone": {
+      "DiD": -0.1125,
+      "ci95": [
+       -0.2125,
+       -0.0125
+      ],
+      "X_minus_R_alone": -0.15,
+      "X_minus_R_claims": -0.2625
+     },
+     "retention|filler_vs_alone": {
+      "DiD": 0.125,
+      "ci95": [
+       0.05,
+       0.2125
+      ],
+      "X_minus_R_alone": -0.15,
+      "X_minus_R_filler": -0.025
+     }
+    }
+   },
+   "by_relation": {
+    "exec_A0": {
+     "RANK": {
+      "escape": "0/45",
+      "retention": "25/45"
+     },
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "29/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "25/45"
+     },
+     "NEGATION": {
+      "escape": "9/45",
+      "retention": "0/45"
+     },
+     "REFERENCE": {
+      "escape": "0/42",
+      "retention": "22/42"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "11/18"
+     }
+    },
+    "exec_D": {
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "30/45"
+     },
+     "RANK": {
+      "escape": "0/45",
+      "retention": "30/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "27/45"
+     },
+     "REFERENCE": {
+      "escape": "1/42",
+      "retention": "28/42"
+     },
+     "NEGATION": {
+      "escape": "10/45",
+      "retention": "18/45"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "13/18"
+     }
+    },
+    "exec_P": {
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "32/45"
+     },
+     "RANK": {
+      "escape": "0/45",
+      "retention": "31/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "29/45"
+     },
+     "REFERENCE": {
+      "escape": "1/42",
+      "retention": "30/42"
+     },
+     "NEGATION": {
+      "escape": "12/45",
+      "retention": "20/45"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "13/18"
+     }
+    },
+    "exec_R11": {
+     "RANK": {
+      "escape": "0/45",
+      "retention": "44/45"
+     },
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "45/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "42/45"
+     },
+     "REFERENCE": {
+      "escape": "1/42",
+      "retention": "42/42"
+     },
+     "NEGATION": {
+      "escape": "14/45",
+      "retention": "34/45"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "17/18"
+     }
+    },
+    "exec_R": {
+     "RANK": {
+      "escape": "0/45",
+      "retention": "33/45"
+     },
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "31/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "29/45"
+     },
+     "REFERENCE": {
+      "escape": "0/42",
+      "retention": "29/42"
+     },
+     "NEGATION": {
+      "escape": "11/45",
+      "retention": "27/45"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "13/18"
+     }
+    },
+    "facts_judge": {
+     "RANK": {
+      "escape": "0/45",
+      "retention": "33/45"
+     },
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "45/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "44/45"
+     },
+     "NEGATION": {
+      "escape": "17/45",
+      "retention": "40/45"
+     },
+     "REFERENCE": {
+      "escape": "8/42",
+      "retention": "42/42"
+     },
+     "TEMPORAL": {
+      "escape": "2/18",
+      "retention": "17/18"
+     }
+    },
+    "forced_tool_judge": {
+     "RANK": {
+      "escape": "12/45",
+      "retention": "37/45"
+     },
+     "VALUE": {
+      "escape": "2/45",
+      "retention": "44/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "43/45"
+     },
+     "NEGATION": {
+      "escape": "12/45",
+      "retention": "40/45"
+     },
+     "REFERENCE": {
+      "escape": "12/42",
+      "retention": "40/42"
+     },
+     "TEMPORAL": {
+      "escape": "5/18",
+      "retention": "7/18"
+     }
+    },
+    "generic_judge2": {
+     "RANK": {
+      "escape": "23/45",
+      "retention": "33/45"
+     },
+     "VALUE": {
+      "escape": "1/45",
+      "retention": "39/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "37/45"
+     },
+     "NEGATION": {
+      "escape": "10/45",
+      "retention": "31/45"
+     },
+     "REFERENCE": {
+      "escape": "20/42",
+      "retention": "34/42"
+     },
+     "TEMPORAL": {
+      "escape": "0/18",
+      "retention": "3/18"
+     }
+    },
+    "generic_rubric": {
+     "VALUE": {
+      "escape": "0/45",
+      "retention": "41/45"
+     },
+     "RANK": {
+      "escape": "7/45",
+      "retention": "15/45"
+     },
+     "SCALE": {
+      "escape": "0/45",
+      "retention": "41/45"
+     },
+     "NEGATION": {
+      "escape": "12/45",
+      "retention": "42/45"
+     },
+     "REFERENCE": {
+      "escape": "7/42",
+      "retention": "41/42"
+     },
+     "TEMPORAL": {
+      "escape": "5/18",
+      "retention": "9/18"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "version": "context/1.0",
+ "seed": 20262008,
+ "writer": "llama4_maverick",
+ "frozen_verifiers": {
+  "executable": "executable/1.5",
+  "dispute": "dispute/1.1",
+  "source_sha256_16": {
+   "witness.py": "c8b2c43b9ac03b04",
+   "executable_verifier.py": "bb6ea98632423836",
+   "dispute.py": "38b14a948f4034d4",
+   "comparators2.py": "db85beeaef2434de",
+   "contract.py": "514e30cffef32fc3"
+  }
+ },
+ "n_items": 480,
+ "n_base": 80,
+ "by_relation": {
+  "VALUE": 15,
+  "RANK": 15,
+  "SCALE": 15,
+  "NEGATION": 15,
+  "REFERENCE": 14,
+  "TEMPORAL": 6
+ },
+ "by_dataset": {
+  "taiwan": 40,
+  "home_credit": 40
+ },
+ "dropped": [
+  [
+   "taiwan-3154",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "taiwan-17744",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "taiwan-25270",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "taiwan-13933",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-4063",
+   "VALUE",
+   "no spec"
+  ],
+  [
+   "taiwan-19003",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "taiwan-22584",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "taiwan-14991",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-24329",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-16209",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-10563",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "taiwan-17489",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "taiwan-23471",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-29638",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-21407",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-22106",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-63",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "taiwan-4327",
+   "TEMPORAL",
+   "no spec"
+  ],
+  [
+   "home_credit-266521",
+   "RANK",
+   "no spec"
+  ],
+  [
+   "home_credit-250462",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-167623",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-46346",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-237942",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-235321",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-52146",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-236138",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-125899",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-11877",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-35290",
+   "REFERENCE",
+   "writer failed checks"
+  ],
+  [
+   "home_credit-186985",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-119168",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-15541",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-56032",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-251593",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-179154",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-76300",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-249454",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-14715",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-171883",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-211035",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-108969",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-301054",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-134965",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-254962",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-130621",
+   "REFERENCE",
+   "no spec"
+  ],
+  [
+   "home_credit-256705",
+   "REFERENCE",
+   "no spec"
+  ]
+ ],
+ "excluded_borrowers": 300
+}

@@ -1,0 +1,18 @@
+{
+ "written_utc": "2026-10-07T15:50:48Z",
+ "pack": "context_pack_v2.jsonl (80 new development-role borrowers, seed 20262008, built after the R11 declaration)",
+ "status": "written before any v2 verifier output was inspected",
+ "confirmatory_hypotheses": [
+  "H1 (R11 retains framing prose): retention of correct passages among filler is at least 80% for ReCheck-R11 with each judge",
+  "H2 (verbosity hides errors from generic judges, replication of v1): DiD on error escape, filler vs alone, aligned rubric (B1R) minus ReCheck-R11 > 0, 95% base-case bootstrap interval excluding 0",
+  "H3 (claim count makes generic judges withhold correct text, replication of v1): DiD on retention, claims vs alone, B1R minus ReCheck-R11 < 0, interval excluding 0",
+  "H4 (no claim-count effect on escape, replication of the v1 null): DiD on escape, claims vs alone, interval including 0"
+ ],
+ "reference": "exec_R11",
+ "comparator": "generic_rubric",
+ "judges": [
+  "qwen3_next",
+  "gemma27_vllm"
+ ],
+ "analysis": "python analyze_context.py --tag v2 --ref exec_R11 (4,000 base-case bootstrap draws)"
+}

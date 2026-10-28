@@ -1,0 +1,12 @@
+{
+ "exec_A0__none": {
+  "n_err": 36,
+  "n_ok": 209,
+  "false_accept": 0,
+  "false_reject": 1,
+  "unresolved": 123,
+  "a": 0.0,
+  "b": 0.005,
+  "coverage_on_clean": 0.493
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "frozen_utc": "2026-10-07T14:33:20Z",
+ "executable": "executable/1.5",
+ "dispute": "dispute/1.0",
+ "source_sha256_16": {
+  "witness.py": "c8b2c43b9ac03b04",
+  "executable_verifier.py": "a85e4613ef53acdd",
+  "dispute.py": "7f918b5898622e16",
+  "comparators2.py": "86bbc8030614e3f4",
+  "contract.py": "514e30cffef32fc3",
+  "verify.py": "bda900056ae4aa1e",
+  "comparators.py": "f6642bccaf5fe862",
+  "kwok.py": "fdc7a8c6845484a2"
+ },
+ "rule": "Verifiers are frozen at these hashes before ANY run on the context pack or the locked natural set. Any later change is reported with both results.",
+ "changes_since_dev_runs": [
+  "executable/1.5: zero-rounding guard (verify._num_matches) and bound-item wording numbers (witness.op_value); no decision changed on the 299 development narratives",
+  "forced_tool_judge: up to two tool rounds (the first implementation lost the verdict when a second round was requested; affected items rerun)"
+ ],
+ "addenda": [
+  {
+   "utc": "2026-10-07T15:20:04Z",
+   "what": "ReCheck-R11 (dispute/1.1: the reader may mark a proposition NONE = states nothing about the borrower, data or model output; a disputed claim read only as NONE does not block release). Designed after the context experiment v1 showed neutral framing prose was deferred (that run is development for R11).",
+   "declared_before": "any label of the locked natural test; the context pack v2 (built after this declaration)",
+   "primary_unchanged": "exec_R (dispute/1.0) remains the prespecified primary method of the locked test; R11 is a declared secondary variant",
+   "source_sha256_16": {
+    "witness.py": "c8b2c43b9ac03b04",
+    "executable_verifier.py": "bb6ea98632423836",
+    "dispute.py": "38b14a948f4034d4",
+    "comparators2.py": "db85beeaef2434de",
+    "contract.py": "514e30cffef32fc3"
+   }
+  }
+ ]
+}

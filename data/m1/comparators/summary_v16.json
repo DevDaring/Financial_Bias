@@ -1,0 +1,32 @@
+{
+ "exec_D__gptoss120b": {
+  "n_err": 72,
+  "n_ok": 227,
+  "false_accept": 21,
+  "false_reject": 0,
+  "unresolved": 38,
+  "a": 0.292,
+  "b": 0.0,
+  "coverage_on_clean": 0.903
+ },
+ "exec_P__gptoss120b": {
+  "n_err": 72,
+  "n_ok": 227,
+  "false_accept": 19,
+  "false_reject": 1,
+  "unresolved": 26,
+  "a": 0.264,
+  "b": 0.004,
+  "coverage_on_clean": 0.96
+ },
+ "exec_R11__gptoss120b": {
+  "n_err": 72,
+  "n_ok": 227,
+  "false_accept": 23,
+  "false_reject": 2,
+  "unresolved": 19,
+  "a": 0.319,
+  "b": 0.009,
+  "coverage_on_clean": 0.943
+ }
+}

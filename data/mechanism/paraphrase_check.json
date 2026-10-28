@@ -1,0 +1,76 @@
+{
+ "by_cell": {
+  "kimi_k25|adversarial": {
+   "same": 21,
+   "changed": 9
+  },
+  "glm47|adversarial": {
+   "same": 25,
+   "changed": 5
+  },
+  "kimi_k25|paraphrase": {
+   "same": 30
+  },
+  "glm47|paraphrase": {
+   "same": 30
+  }
+ },
+ "changed": [
+  {
+   "paraphrase_item_id": "CX-ta-24274-RANK|ok|alone|glm47|adversarial",
+   "what": "direction"
+  },
+  {
+   "paraphrase_item_id": "CX-ho-38937-VALUE|err|alone|kimi_k25|adversarial",
+   "what": "unit or scale"
+  },
+  {
+   "paraphrase_item_id": "CX-ho-20303-RANK|err|alone|glm47|adversarial",
+   "what": "field or name"
+  },
+  {
+   "paraphrase_item_id": "CX-ta-23321-VALUE|ok|alone|kimi_k25|adversarial",
+   "what": "unit or scale"
+  },
+  {
+   "paraphrase_item_id": "CY-ta-19951-RANK|ok|alone|kimi_k25|adversarial",
+   "what": "field or name"
+  },
+  {
+   "paraphrase_item_id": "CX-ta-17134-SCALE|err|alone|kimi_k25|adversarial",
+   "what": "added information"
+  },
+  {
+   "paraphrase_item_id": "CX-ho-145901-RANK|ok|alone|glm47|adversarial",
+   "what": "field or name"
+  },
+  {
+   "paraphrase_item_id": "CY-ta-3015-RANK|ok|alone|glm47|adversarial",
+   "what": "other"
+  },
+  {
+   "paraphrase_item_id": "CY-ta-12552-REFERENCE|ok|alone|glm47|adversarial",
+   "what": "field or name"
+  },
+  {
+   "paraphrase_item_id": "CX-ho-213770-REFERENCE|ok|alone|kimi_k25|adversarial",
+   "what": "field or name"
+  },
+  {
+   "paraphrase_item_id": "CY-ta-21642-VALUE|err|alone|kimi_k25|adversarial",
+   "what": "time period"
+  },
+  {
+   "paraphrase_item_id": "CX-ho-145901-RANK|ok|alone|kimi_k25|adversarial",
+   "what": "field or name"
+  },
+  {
+   "paraphrase_item_id": "CX-ho-89278-REFERENCE|err|alone|kimi_k25|adversarial",
+   "what": "unit or scale"
+  },
+  {
+   "paraphrase_item_id": "CY-ho-125590-REFERENCE|ok|alone|kimi_k25|adversarial",
+   "what": "field or name"
+  }
+ ]
+}

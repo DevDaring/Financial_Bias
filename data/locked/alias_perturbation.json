@@ -1,0 +1,236 @@
+{
+ "n": 774,
+ "aliases": 51076,
+ "frozen": {
+  "release": 201,
+  "release|correct": 183,
+  "claims": 3063,
+  "claims_routed": 896,
+  "reject": 130,
+  "reject|correct": 11,
+  "judge": 443,
+  "judge|wrong": 188,
+  "reject|wrong": 119,
+  "judge|correct": 255,
+  "release|wrong": 18
+ },
+ "perturbed": {
+  "0.25": [
+   {
+    "release": 200,
+    "release|correct": 182,
+    "claims": 3063,
+    "claims_routed": 899,
+    "reject": 130,
+    "reject|correct": 11,
+    "judge": 444,
+    "judge|wrong": 188,
+    "reject|wrong": 119,
+    "judge|correct": 256,
+    "release|wrong": 18,
+    "moves": {
+     "release->judge": 1
+    },
+    "moves_wrong": {}
+   },
+   {
+    "release": 201,
+    "release|correct": 183,
+    "claims": 3063,
+    "claims_routed": 895,
+    "reject": 131,
+    "reject|correct": 12,
+    "judge": 442,
+    "judge|wrong": 188,
+    "reject|wrong": 119,
+    "judge|correct": 254,
+    "release|wrong": 18,
+    "moves": {
+     "judge->reject": 1
+    },
+    "moves_wrong": {}
+   },
+   {
+    "release": 199,
+    "release|correct": 181,
+    "claims": 3063,
+    "claims_routed": 901,
+    "reject": 130,
+    "reject|correct": 11,
+    "judge": 445,
+    "judge|wrong": 188,
+    "reject|wrong": 119,
+    "judge|correct": 257,
+    "release|wrong": 18,
+    "moves": {
+     "release->judge": 2
+    },
+    "moves_wrong": {}
+   },
+   {
+    "release": 201,
+    "release|correct": 183,
+    "claims": 3063,
+    "claims_routed": 894,
+    "reject": 130,
+    "reject|correct": 11,
+    "judge": 443,
+    "judge|wrong": 188,
+    "reject|wrong": 119,
+    "judge|correct": 255,
+    "release|wrong": 18,
+    "moves": {},
+    "moves_wrong": {}
+   },
+   {
+    "release": 200,
+    "release|correct": 182,
+    "claims": 3063,
+    "claims_routed": 901,
+    "reject": 130,
+    "reject|correct": 11,
+    "judge": 444,
+    "judge|wrong": 188,
+    "reject|wrong": 119,
+    "judge|correct": 256,
+    "release|wrong": 18,
+    "moves": {
+     "release->judge": 1
+    },
+    "moves_wrong": {}
+   }
+  ],
+  "0.5": [
+   {
+    "release": 199,
+    "release|correct": 181,
+    "claims": 3063,
+    "claims_routed": 901,
+    "reject": 131,
+    "reject|correct": 10,
+    "judge": 444,
+    "judge|wrong": 186,
+    "reject|wrong": 121,
+    "judge|correct": 258,
+    "release|wrong": 18,
+    "moves": {
+     "judge->reject": 2,
+     "release->judge": 2,
+     "reject->judge": 1
+    },
+    "moves_wrong": {
+     "judge->reject": 2
+    }
+   },
+   {
+    "release": 197,
+    "release|correct": 179,
+    "claims": 3063,
+    "claims_routed": 900,
+    "reject": 133,
+    "reject|correct": 12,
+    "judge": 444,
+    "judge|wrong": 186,
+    "reject|wrong": 121,
+    "judge|correct": 258,
+    "release|wrong": 18,
+    "moves": {
+     "release->judge": 4,
+     "judge->reject": 3
+    },
+    "moves_wrong": {
+     "judge->reject": 2
+    }
+   },
+   {
+    "release": 199,
+    "release|correct": 181,
+    "claims": 3063,
+    "claims_routed": 903,
+    "reject": 132,
+    "reject|correct": 12,
+    "judge": 443,
+    "judge|wrong": 187,
+    "reject|wrong": 120,
+    "judge|correct": 256,
+    "release|wrong": 18,
+    "moves": {
+     "release->judge": 2,
+     "judge->reject": 3,
+     "reject->judge": 1
+    },
+    "moves_wrong": {
+     "judge->reject": 2,
+     "reject->judge": 1
+    }
+   },
+   {
+    "release": 198,
+    "release|correct": 181,
+    "claims": 3063,
+    "claims_routed": 903,
+    "reject": 132,
+    "reject|correct": 11,
+    "judge": 444,
+    "judge|wrong": 187,
+    "reject|wrong": 121,
+    "judge|correct": 257,
+    "release|wrong": 17,
+    "moves": {
+     "release->judge": 3,
+     "judge->reject": 2
+    },
+    "moves_wrong": {
+     "judge->reject": 2,
+     "release->judge": 1
+    }
+   },
+   {
+    "release": 195,
+    "release|correct": 177,
+    "claims": 3063,
+    "claims_routed": 907,
+    "reject": 133,
+    "reject|correct": 12,
+    "judge": 446,
+    "judge|wrong": 186,
+    "reject|wrong": 121,
+    "judge|correct": 260,
+    "release|wrong": 18,
+    "moves": {
+     "release->judge": 6,
+     "judge->reject": 4,
+     "reject->judge": 1
+    },
+    "moves_wrong": {
+     "judge->reject": 2
+    }
+   }
+  ],
+  "1.0": [
+   {
+    "release": 172,
+    "release|correct": 158,
+    "claims": 3063,
+    "claims_routed": 1004,
+    "reject": 127,
+    "reject|correct": 9,
+    "judge": 475,
+    "judge|wrong": 193,
+    "reject|wrong": 118,
+    "judge|correct": 282,
+    "release|wrong": 14,
+    "moves": {
+     "release->judge": 29,
+     "judge->reject": 2,
+     "reject->judge": 5
+    },
+    "moves_wrong": {
+     "judge->reject": 2,
+     "reject->judge": 3,
+     "release->judge": 4
+    }
+   }
+  ]
+ }
+}
